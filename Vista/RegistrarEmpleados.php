@@ -5,15 +5,15 @@ session_start();
 <!---
 /**
  * Created by PhpStorm.
- * User: camilo mejia monsalve 
+ * User: CAMILO MEJIA MONSALVE
  * Date: 22/12/2017
- * Time: 22:03
+ * Time: 22:41
  */--->
 <html lang="en">
 
 <head>
     <title>INBIOSER</title>
-    <!---<link rel="shortcut icon" href="../Vista/img/logo.png">-->
+    <link rel="shortcut icon" href="../Vista/img/logo.png">
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -45,9 +45,9 @@ session_start();
         <div class="carousel-item" style="height: 60vh;">
             <img class="d-block img-fluid" src="img/carousel/2.jpg" alt="Second slide">
         </div>
-        <!--<div class="carousel-item" style="height: 60vh;">
+        <div class="carousel-item" style="height: 60vh;">
             <img class="d-block img-fluid" src="img/carousel/3.jpg" alt="Third slide">
-        </div>-->
+        </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -81,7 +81,7 @@ session_start();
             <li class="nav-item dropdown active">
                 <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <i class="fa fa-book" aria-hidden="true"></i>
-                    Registrar
+                    Registro
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                     <a class="dropdown-item text-center" href="RegistrarEmpleados.php"><i class="fa fa-user" aria-hidden="true"></i>
@@ -101,7 +101,7 @@ session_start();
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                     <a class="dropdown-item text-center" href="ConsultaOrdenCompra.php"><i class="fa fa-hospital-o" aria-hidden="true"></i>
                         Orden o factura de compra</a>
-                    <a class="dropdown-item text-center " href="ConsultaGeneralSistema.php"><i class="fa fa-globe" aria-hidden="true"></i>
+                    <a class="dropdown-item text-center  " href="ConsultaGeneralSistema.php"><i class="fa fa-globe" aria-hidden="true"></i>
                         consulta general</a>
 
                 </div>
@@ -149,10 +149,10 @@ session_start();
 <!-- Modal. -->
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
-        <form method="post" action="../Controlador/LoginC.php">
+        <form method="post" action="../Controlador/InicioSesion.php">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Iniciar sesíon</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">Iniciar sesion</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -188,65 +188,59 @@ session_start();
     </div>
 </div>
 
-<!-- Productos. -->
+
+<!-- Empleados. -->
 <div class="container">
-    <div class="mt-5 mb-5" style="width: " role="document">
-        <div class="modal-content">
-            <form action="Compra.php" method="post">
+    <form action="../Controlador/RegistrarEmpleadosC.php" method="post">
+        <div class="mt-5 mb-5" role="document">
+            <div class="modal-content">
                 <div class="modal-header">
-                    <h1>Productos</h1>
+                    <h1>Registrar Empleado</h1>
+                    <i class="fa fa-briefcase fa-5x hidden-xs-down" aria-hidden="true"></i>
                 </div>
-                <div class="modal-body row">
-                    <?php
-                    include ('../Modelo/Conexion.php');
-                    $conection = new Conexion();
-                    $consulta = "SELECT ID_Producto,NOM_Producto,PRE_Producto,DCN_Producto,IMG_Producto FROM tblProducto";
-                    $resultado = mysqli_query($conection->conectarMysql(),$consulta);
-                    $n=10;
-                    while($row = mysqli_fetch_array($resultado)){
-                        $ruta_img = $row['IMG_Producto'];
-                        echo
-                            '
-                            <div class="col-sm-4 col-xs-2">
-                                <div class="card m-2" style="width: 20rem;">
-                                    <img class="card-img-top" style="height: 40vh;" src="../Controlador/fotos/'.$ruta_img.'" alt="Card image cap">
-                                    <div class="card-block">
-                                        <hr class="my-4">
-                                        <h4 class="card-title">'.$row['NOM_Producto'].'</h4>
-                                        <p style="height: 10vh;">
-                                        <strong>Descripcion:</strong> '.$row['DCN_Producto'].'
-                                        <div class="input-group mb-2 mr-sm-2 mb-sm-0">
-                                            <div class="input-group-addon">
-                                                <i class="fa fa-money fa-2x" aria-hidden="true"></i>
-                                            </div>
-                                            <input type="text" value="'.number_format($row['PRE_Producto']).'" class="form-control" id="inlineFormInputGroup" readonly>
-                                        </div>
-                                        </p>
-                                        <hr class="my-4">
-                                        <div class="form-check">
-                                          <label class="form-check-label">
-                                            <input type="checkbox" class="form-check-input" name="producto[]" value="'.$row['ID_Producto'].'">
-                                            <i class="fa fa-shopping-cart mr-2" aria-hidden="true"></i>
-                                            Añadir al carrito
-                                          </label>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            ';
-                    }
-                    ?>
+                <div class="modal-body">
+                    <!--id empleado-->
+                    <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+                        <div class="input-group-addon">
+                            <i class="fa fa-id-card-o" aria-hidden="true"></i>
+                        </div>
+                        <input name="id" type="text" class="form-control" id="inlineFormInputGroup" placeholder="Codigo de empleado" required>
+                    </div>
+                    <br>
+                    <!--usuario empleado-->
+                    <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+                        <div class="input-group-addon">
+                            <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+                        </div>
+                        <input name="usuario" type="text" class="form-control" id="inlineFormInputGroup" placeholder="Nombre de usuario">
+                    </div>
+                    <br>
+                    <!--contraseña empleado-->
+                    <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+                        <div class="input-group-addon">
+                            <i class="fa fa-key" aria-hidden="true"></i>
+                        </div>
+                        <input name="contraseña" type="password" class="form-control" id="inlineFormInputGroup" placeholder="contraseña">
+                    </div>
+                    <br>
+                    <!--correo empleado-->
+                    <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+                        <div class="input-group-addon">
+                            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                        </div>
+                        <input name="email" type="email" class="form-control" id="inlineFormInputGroup" placeholder="email">
+                    </div>
+                    <br>
                 </div>
                 <div class="modal-footer">
-
-                    <button type="submit" name="login" class="btn btn-info">
-                        <i class="fa fa-credit-card-alt mr-2" aria-hidden="true"></i>
-                        comprar
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                        Registrar
                     </button>
                 </div>
-            </form>
+            </div>
         </div>
-    </div>
+    </form>
 </div>
 
 </body>
