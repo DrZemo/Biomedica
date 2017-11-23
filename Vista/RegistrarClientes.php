@@ -6,8 +6,9 @@ session_start();
 /**
  * Created by PhpStorm.
  * User: CAMILO MEJIA MONSALVE
- * Date: 22/12/2017
- * Time: 22:41
+ * Date: 22/11/2017
+ * Time: 23:06
+ */
  */--->
 <html lang="en">
 
@@ -73,7 +74,7 @@ session_start();
     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav mr-auto mt-2 mt-md-0">
             <li class="nav-item " >
-                <a class="nav-link" href="index.php" >
+                <a class="nav-link" href="#" >
                     <i class="fa fa-home" aria-hidden="true"></i>
                     Inicio
                 </a>
@@ -101,7 +102,7 @@ session_start();
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                     <a class="dropdown-item text-center" href="ConsultaOrdenCompra.php"><i class="fa fa-hospital-o" aria-hidden="true"></i>
                         Orden o factura de compra</a>
-                    <a class="dropdown-item text-center  " href="ConsultaGeneralSistema.php"><i class="fa fa-globe" aria-hidden="true"></i>
+                    <a class="dropdown-item text-center " href="ConsultaGeneralSistema.php"><i class="fa fa-globe" aria-hidden="true"></i>
                         consulta general</a>
 
                 </div>
@@ -137,7 +138,7 @@ session_start();
                 ?>
                 <button type="button" class="btn btn-outline-success my-2 my-sm-0" data-toggle="modal" data-target="#myModal">
                     <i class="fa fa-sign-in" aria-hidden="true"></i>
-                    Iniciar Sesíon
+                    Iniciar sesion
                 </button>
                 <?php
             }
@@ -152,7 +153,7 @@ session_start();
         <form method="post" action="../Controlador/InicioSesion.php">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Iniciar sesion</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">Iniciar sesíon</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -188,34 +189,33 @@ session_start();
     </div>
 </div>
 
-
-<!-- Empleados. -->
+<!-- Registro clientes. -->
 <div class="container">
-    <form action="../Controlador/RegistrarEmpleadosC.php" method="post">
+    <form action="../Controlador/RegistrarClientesC.php.php" method="post">
         <div class="mt-5 mb-5" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h1>Registrar Empleado</h1>
-                    <i class="fa fa-briefcase fa-5x hidden-xs-down" aria-hidden="true"></i>
+                    <h1>Registrar cliente</h1>
+                    <i class="fa fa-reddit-alien fa-5x hidden-xs-down" aria-hidden="true"></i>
                 </div>
                 <div class="modal-body">
-                    <!--id empleado-->
+                    <!--id cliente-->
                     <div class="input-group mb-2 mr-sm-2 mb-sm-0">
                         <div class="input-group-addon">
                             <i class="fa fa-id-card-o" aria-hidden="true"></i>
                         </div>
-                        <input name="id" type="text" class="form-control" id="inlineFormInputGroup" placeholder="Codigo de empleado" required>
+                        <input name="id" type="text" class="form-control" id="inlineFormInputGroup" placeholder="Documento" required>
                     </div>
                     <br>
-                    <!--usuario empleado-->
+                    <!--nombre cliente-->
                     <div class="input-group mb-2 mr-sm-2 mb-sm-0">
                         <div class="input-group-addon">
                             <i class="fa fa-user-circle-o" aria-hidden="true"></i>
                         </div>
-                        <input name="usuario" type="text" class="form-control" id="inlineFormInputGroup" placeholder="Nombre de usuario">
+                        <input name="usuario" type="text" class="form-control" id="inlineFormInputGroup" placeholder="Nombre de cliente">
                     </div>
                     <br>
-                    <!--contraseña empleado-->
+                    <!--contraseña cliente-->
                     <div class="input-group mb-2 mr-sm-2 mb-sm-0">
                         <div class="input-group-addon">
                             <i class="fa fa-key" aria-hidden="true"></i>
@@ -223,12 +223,29 @@ session_start();
                         <input name="contraseña" type="password" class="form-control" id="inlineFormInputGroup" placeholder="contraseña">
                     </div>
                     <br>
-                    <!--correo empleado-->
+                    <!--correo cliente-->
                     <div class="input-group mb-2 mr-sm-2 mb-sm-0">
                         <div class="input-group-addon">
                             <i class="fa fa-envelope-o" aria-hidden="true"></i>
                         </div>
                         <input name="email" type="email" class="form-control" id="inlineFormInputGroup" placeholder="email">
+                    </div>
+                    <br>
+                    <!--DIRECCION cliente-->
+                    <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+                        <div class="input-group-addon">
+                            <i class="fa fa-location-arrow" aria-hidden="true"></i>
+
+                        </div>
+                        <input name="direc" type="text" class="form-control" id="inlineFormInputGroup" placeholder="direccion">
+                    </div>
+                    <br>
+                    <!--targeta cliente-->
+                    <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+                        <div class="input-group-addon">
+                            <i class="fa fa-bullseye" aria-hidden="true"></i>
+                        </div>
+                        <input name="targ" type="text" class="form-control" id="inlineFormInputGroup" placeholder="targeta de credito">
                     </div>
                     <br>
                 </div>
