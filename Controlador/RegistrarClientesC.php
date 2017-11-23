@@ -2,7 +2,7 @@
 /**
 /**
  * Created by PhpStorm.
- * User: CAMILO
+ * User: CAMILO MEJIA MONSALVE
  * Date: 22/11/2017
  * Time: 23:09
  */--->
@@ -19,7 +19,7 @@ $direc = $_POST['direc'];
 
 
 $consulta = "INSERT INTO tblCliente(ID_Cliente,NOMAPE_Cliente,PASS_Cliente,CORREO,Targeta,DIRECCION) VALUES('".$id."','".strtoupper($nombre)."','".$pass."','".$email."','".$tarcred."','".$direc."')";
-$resultado = mysqli_query($conection,$consulta);
+$resultado = mysqli_query($conection->conectarMysql(),$consulta);
 
 if ($resultado){
     header("Location: ../Vista/index.php");
