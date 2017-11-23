@@ -128,7 +128,7 @@ session_start();
                         <i><?php if (isset($_SESSION['empleado'])){echo $_SESSION['empleado'];} if (isset($_SESSION['cliente'])){ echo $_SESSION['cliente'];}?></i>
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="Desconectar.php">cerrar session</a>
+                        <a class="dropdown-item" href="../Controlador/CerrarSesion.php">cerrar session</a>
                     </div>
                 </div>
 
@@ -137,7 +137,7 @@ session_start();
                 ?>
                 <button type="button" class="btn btn-outline-success my-2 my-sm-0" data-toggle="modal" data-target="#myModal">
                     <i class="fa fa-sign-in" aria-hidden="true"></i>
-                    log in
+                    Iniciar Sesíon
                 </button>
                 <?php
             }
@@ -149,7 +149,7 @@ session_start();
 <!-- Modal. -->
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
-        <form method="post" action="../Controlador/LoginC.php">
+        <form method="post" action="../Controlador/InicioSesion.php">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="exampleModalLabel">Iniciar sesíon</h5>
