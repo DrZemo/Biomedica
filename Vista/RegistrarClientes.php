@@ -191,7 +191,7 @@ session_start();
 
 <!-- Registro clientes. -->
 <div class="container">
-    <form action="../Controlador/RegistrarClientesC.php.php" method="post">
+    <form action="../Controlador/RegistrarClientesC.php" method="post">
         <div class="mt-5 mb-5" role="document">
             <div class="modal-content">
                 <div class="modal-header">

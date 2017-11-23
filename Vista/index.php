@@ -192,7 +192,7 @@ session_start();
 <div class="container">
     <div class="mt-5 mb-5" style="width: " role="document">
         <div class="modal-content">
-            <form action="Compra.php" method="post">
+            <form action="FacturarCompra.php" method="post">
                 <div class="modal-header">
                     <h1>Productos</h1>
                 </div>
@@ -214,7 +214,7 @@ session_start();
                                         <hr class="my-4">
                                         <h4 class="card-title">'.$row['NOM_Producto'].'</h4>
                                         <p style="height: 10vh;">
-                                        <strong>Descripcion:</strong> '.$row['DCN_Producto'].'
+                                        <strong>Modelo:</strong> '.$row['DCN_Producto'].'
                                         <div class="input-group mb-2 mr-sm-2 mb-sm-0">
                                             <div class="input-group-addon">
                                                 <i class="fa fa-money fa-2x" aria-hidden="true"></i>
@@ -241,7 +241,7 @@ session_start();
 
                     <button type="submit" name="login" class="btn btn-info">
                         <i class="fa fa-credit-card-alt mr-2" aria-hidden="true"></i>
-                        comprar
+                        Facturar
                     </button>
                 </div>
             </form>

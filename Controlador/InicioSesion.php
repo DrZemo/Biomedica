@@ -24,12 +24,12 @@
             if ($row["PAS_Empleado"] == $contraseña) {
                 $_SESSION['id_empleado']=$row['ID_Empleado'];
                 $_SESSION['empleado'] = $row["USUARIO_Empleado"];
-                header("Location: /VentaHerramientas/Vista/index.php");
+                header("Location: /Biomedica/Vista/index.php");
             } else {
                 header("Location: ../Vista/Errores/ContraseñaHerronea.php");
             }
         } else {
-            $resultado = mysqli_query($con->conectarMysqlParameters("localhost","root","","DB_VENTAHERRAMIENTAS"), " SELECT * FROM tblCliente WHERE ID_Cliente = '" . $usuario . "' ");
+            $resultado = mysqli_query($con->conectarMysql(), " SELECT * FROM tblCliente WHERE ID_Cliente = '" . $usuario . "' ");
             $row = mysqli_fetch_array($resultado);
             if ($row[ID_Cliente] == $usuario){
                 if ($row["PASS_Cliente"] == $contraseña) {

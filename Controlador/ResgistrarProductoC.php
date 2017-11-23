@@ -31,7 +31,7 @@ $ruta = $_FILES['imagen']['tmp_name'];
 $destino = "fotos/".$imagen;
 copy($ruta,$destino);
 
-$consulta = "INSERT INTO tblProducto(ID_Producto,NOM_Producto,PRE_Producto,DCN_Producto,IMG_Producto,ID_Empleado) VALUES('".$id."','".strtoupper($nombre)."','".$precio."','".$descrip."','".$imagen."','".$idempleado."')";
+$consulta = "INSERT INTO tblProducto(ID_Producto,NOM_Producto,PRE_Producto,DCN_Producto,IMG_Producto,ID_Empleado) VALUES('".$id."','".strtoupper($nombre)."','".$precio."','".strtolower($descrip)."','".$imagen."','".$idempleado."')";
 $resultado = mysqli_query($conection->conectarMysql(),$consulta);
 
 if ($resultado){
