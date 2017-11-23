@@ -11,6 +11,6 @@ if($_SESSION['empleado']){
     header("location: /Biomedica/Vista/index.php");
 }elseif ($_SESSION['cliente']){
     session_destroy();
-    header("location: /VentaHerramientas/Vista/index.php");
+    header("location: /Biomedica/Vista/index.php");
 }
 ?>

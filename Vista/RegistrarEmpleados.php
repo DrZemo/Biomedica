@@ -99,8 +99,8 @@ session_start();
                     Consultas
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item text-center" href="ConsultaOrdenCompra.php"><i class="fa fa-hospital-o" aria-hidden="true"></i>
-                        Orden o factura de compra</a>
+                    <a class="dropdown-item text-center" href="ConsultarFacturas.php"><i class="fa fa-hospital-o" aria-hidden="true"></i>
+                        Facturas</a>
                     <a class="dropdown-item text-center  " href="ConsultaGeneralSistema.php"><i class="fa fa-globe" aria-hidden="true"></i>
                         consulta general</a>
 

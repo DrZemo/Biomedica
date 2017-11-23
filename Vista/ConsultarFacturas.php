@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <?php
 session_start();
+include('../Modelo/Conexion.php');
+$conection = new Conexion();
+if (@!$_SESSION['empleado']){
+    header("Location: ../Vista/Errores/SinPermiso.php");
+}
 ?>
 <!---
 /**
  * Created by PhpStorm.
- * User: CAMILO MEJIA MONSALVE
- * Date: 22/11/2017
- * Time: 23:06
- */
+ * User: CAMILO
+ * Date: 23/11/2017
+ * Time: 00:23
  */--->
 <html lang="en">
 
@@ -102,7 +106,7 @@ session_start();
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                     <a class="dropdown-item text-center" href="ConsultarFacturas.php"><i class="fa fa-hospital-o" aria-hidden="true"></i>
                         Facturas</a>
-                    <a class="dropdown-item text-center " href="ConsultaGeneralSistema.php"><i class="fa fa-globe" aria-hidden="true"></i>
+                    <a class="dropdown-item text-center " href="RegistrarClientes.php"><i class="fa fa-globe" aria-hidden="true"></i>
                         consulta general</a>
 
                 </div>
@@ -138,7 +142,7 @@ session_start();
                 ?>
                 <button type="button" class="btn btn-outline-success my-2 my-sm-0" data-toggle="modal" data-target="#myModal">
                     <i class="fa fa-sign-in" aria-hidden="true"></i>
-                    Iniciar sesion
+                    log in
                 </button>
                 <?php
             }
@@ -189,76 +193,134 @@ session_start();
     </div>
 </div>
 
-<!-- Registro clientes. -->
+<!-- ordencompra. -->
 <div class="container">
-    <form action="../Controlador/RegistrarClientesC.php" method="post">
-        <div class="mt-5 mb-5" role="document">
-            <div class="modal-content">
+    <div class="mt-5 mb-5" style="width: " role="document">
+        <div class="modal-content">
+            <form action="ConsultarFacturas.php" method="post">
                 <div class="modal-header">
-                    <h1>Registrar cliente</h1>
-                    <i class="fa fa-reddit-alien fa-5x hidden-xs-down" aria-hidden="true"></i>
+                    <h1>Facturas</h1>
+                    <i class="fa fa-hospital-o fa-5x" aria-hidden="true"></i>
                 </div>
                 <div class="modal-body">
-                    <!--id cliente-->
-                    <div class="input-group mb-2 mr-sm-2 mb-sm-0">
-                        <div class="input-group-addon">
-                            <i class="fa fa-id-card-o" aria-hidden="true"></i>
-                        </div>
-                        <input name="id" type="text" class="form-control" id="inlineFormInputGroup" placeholder="Documento" required>
-                    </div>
-                    <br>
-                    <!--nombre cliente-->
-                    <div class="input-group mb-2 mr-sm-2 mb-sm-0">
-                        <div class="input-group-addon">
-                            <i class="fa fa-user-circle-o" aria-hidden="true"></i>
-                        </div>
-                        <input name="usuario" type="text" class="form-control" id="inlineFormInputGroup" placeholder="Nombre de cliente">
-                    </div>
-                    <br>
-                    <!--contraseña cliente-->
-                    <div class="input-group mb-2 mr-sm-2 mb-sm-0">
-                        <div class="input-group-addon">
-                            <i class="fa fa-key" aria-hidden="true"></i>
-                        </div>
-                        <input name="contraseña" type="password" class="form-control" id="inlineFormInputGroup" placeholder="contraseña">
-                    </div>
-                    <br>
-                    <!--correo cliente-->
-                    <div class="input-group mb-2 mr-sm-2 mb-sm-0">
-                        <div class="input-group-addon">
-                            <i class="fa fa-envelope-o" aria-hidden="true"></i>
-                        </div>
-                        <input name="email" type="email" class="form-control" id="inlineFormInputGroup" placeholder="email">
-                    </div>
-                    <br>
-                    <!--DIRECCION cliente-->
-                    <div class="input-group mb-2 mr-sm-2 mb-sm-0">
-                        <div class="input-group-addon">
-                            <i class="fa fa-location-arrow" aria-hidden="true"></i>
+                    <table class="table table-hover">
+                        <thead>
+                        <tr>
+                            <th>id factura</th>
+                            <th>fecha</th>
+                            <th>cliente</th>
+                            <th>seleccionar</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <?php
 
-                        </div>
-                        <input name="direc" type="text" class="form-control" id="inlineFormInputGroup" placeholder="direccion">
-                    </div>
-                    <br>
-                    <!--targeta cliente-->
-                    <div class="input-group mb-2 mr-sm-2 mb-sm-0">
-                        <div class="input-group-addon">
-                            <i class="fa fa-bullseye" aria-hidden="true"></i>
-                        </div>
-                        <input name="targ" type="text" class="form-control" id="inlineFormInputGroup" placeholder="targeta de credito">
-                    </div>
-                    <br>
+                        $consulta = "SELECT f.ID_FACTURA, f.FECHAR, C.ID_Cliente, c.NOMAPE_Cliente FROM tlbFactura f INNER JOIN tblCliente c ON f.ID_Cliente = c.ID_Cliente ";
+                        $resultado = mysqli_query($conection->conectarMysql(),$consulta);
+
+                        while($row = mysqli_fetch_array($resultado)){
+                            $consulta2 = "SELECT ID_FACTURA from tblEnvio E WHERE E.ID_FACTURA = '".$row['ID_FACTURA']."'";
+                            $resultado2 = mysqli_query($conection->conectarMysql(),$consulta2);
+                            $row2 = mysqli_fetch_array($resultado2);
+
+                            if ($row2[0]==null){
+                                echo
+                                    '    
+                <tr>
+                <th scope="row">'.$row['ID_FACTURA'].'</th>
+                <td>'.$row['FECHAR'].'</td>
+                <td>'.$row['NOMAPE_Cliente'].'</td>
+                <td> <input type="checkbox" class="form-check-input" name="factura[]" value="'.$row['ID_FACTURA'].'"></td>
+                <input type="text" class="form-check-input" name="nombreCli[]" value="'.$row['NOMAPE_Cliente'].'" hidden>
+                <input type="text" class="form-check-input" name="idClient[]" value="'.$row['ID_Cliente'].'" hidden>
+                </tr>
+                                ';
+                            }
+
+                        }
+                        ?>
+                        </tbody>
+                    </table>
                 </div>
                 <div class="modal-footer">
-                    <button type="submit" class="btn btn-primary">
+
+                    <button type="submit" name="login" class="btn btn-info">
                         <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
-                        Registrar
+                        consultar
                     </button>
                 </div>
-            </div>
+            </form>
         </div>
-    </form>
+    </div>
 </div>
+<?php
+
+if (!empty($_POST['factura'])&& !empty($_POST['nombreCli'])&& !empty($_POST['idClient'])){
+    $VeccFactura = $_POST['factura'];
+    $nom = $_POST['nombreCli'];
+    $idCliente = $_POST['idClient'];
+    for ($z = 0; $z < sizeof($VeccFactura);$z++){
+        $consultaDetalleFact = "SELECT C.NOMAPE_Cliente, DF.ID_ITEM,P.PRE_Producto, P.NOM_Producto FROM tblProducto P INNER JOIN tblDETALLE_FACTURA DF 
+ON P.ID_Producto = DF.ID_Producto INNER JOIN tlbFactura F
+ON F.ID_FACTURA = DF.ID_FACTURA INNER JOIN tblCliente C
+ON F.ID_Cliente = C.ID_Cliente where F.ID_FACTURA = '".$VeccFactura[$z]."';";
+        $respues = mysqli_query($conection->conectarMysql(),$consultaDetalleFact);
+        ?>
+        <form action="../Controlador/DespacharPedicoC.php" method="post">
+            <div class="container mb-5">
+                <div class="" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Orden de compra para el cliente [<?php echo $nom[$z]; ?>] con factura [<?php echo $VeccFactura[$z]; ?>]</h5>
+                            <input type="text" class="form-check-input" name="IDfactura" value="<?php echo $VeccFactura[$z]; ?>" hidden>
+                            <input type="text" class="form-check-input" name="IDcliente" value="<?php echo $idCliente[$z]; ?>" hidden>
+                        </div>
+                        <div class="modal-body">
+                            <table class="table">
+                                <thead>
+                                <tr>
+                                    <th># item</th>
+                                    <th>nombre del producto</th>
+                                    <th>producto </th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <?php
+                                $total = 0;
+                                while($row = mysqli_fetch_array($respues)){
+                                    $total = $total + $row['PRE_Producto'];
+                                    ?>
+                                    <tr>
+                                        <th scope="row"><?php echo $row['ID_ITEM']; ?></th>
+                                        <td><?php echo $row['NOM_Producto']; ?></td>
+                                        <td><?php echo number_format($row['PRE_Producto']); ?></td>
+                                    </tr>
+                                    <?php
+                                }
+
+                                ?>
+                                <tr>
+                                    <th scope="row">*</th>
+                                    <td>total </td>
+                                    <td><?php echo number_format($total); ?></td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="submit" class="btn btn-primary">
+                                <i class="fa fa-car" aria-hidden="true"></i>
+                                Despachar pedido
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <?php
+    }
+}
+?>
 
 </body>
 </html>
