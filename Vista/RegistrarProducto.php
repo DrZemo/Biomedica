@@ -233,6 +233,14 @@ if (@!$_SESSION['empleado']){
                         <input name="descripcion" type="text" class="form-control" id="inlineFormInputGroup" placeholder="descripcion producto maximo 40 caracteres">
                     </div>
                     <br>
+                    <!--cantidad-->
+                    <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+                        <div class="input-group-addon">
+                            <i class="fa fa-thermometer-quarter" aria-hidden="true"></i>
+                        </div>
+                        <input name="cantidad" type="number" class="form-control" id="inlineFormInputGroup" placeholder="cantidad" required>
+                    </div>
+                    <br>
                     <!--imagen producto-->
                     <div class="input-group mb-2 mr-sm-2 mb-sm-0">
                         <div class="input-group-addon">

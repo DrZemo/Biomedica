@@ -220,6 +220,7 @@ session_start();
                                                 <i class="fa fa-money fa-2x" aria-hidden="true"></i>
                                             </div>
                                             <input type="text" value="'.number_format($row['PRE_Producto']).'" class="form-control" id="inlineFormInputGroup" readonly>
+                                            <input name="cantidad[]" type="number" value="0" min="0" max="10" class="form-control" id="inlineFormInputGroup" >
                                         </div>
                                         </p>
                                         <hr class="my-4">

@@ -55,6 +55,7 @@ $conection = new Conexion();
                         <tr>
                             <th>#</th>
                             <th>Producto</th>
+                            <th>Cantidad</th>
                             <th>Precio</th>
                         </tr>
                         </thead>
@@ -63,38 +64,36 @@ $conection = new Conexion();
 
                         if (!empty($_POST['producto'])){
                             $checkProducto = $_POST['producto'];
-                            $total = 0; $n = 0;
+                            $cantidad = $_POST['cantidad'];
+                            $total = 0; $n = 0; $cantotal = 0;
                             for($i = 0; $i < sizeof($checkProducto); $i++){
                                 $consulta = mysqli_query($conection->conectarMysql(),"SELECT NOM_Producto, PRE_Producto FROM tblProducto WHERE ID_Producto = '".$checkProducto[$i]."'");
-
+                                $cantotal = $cantotal + $cantidad[$i];
                                 while ($result = mysqli_fetch_array($consulta)){
                                     ?>
                                     <input name="idProductos[]" type="text" hidden value="<?php echo $checkProducto[$i]; ?>">
+                                    <input name="cantidades[]" type="text" hidden value="<?php echo $cantidad[$i]; ?>">
                                     <?php
-                                    $total = $total + $result['PRE_Producto']; $n = $i+1;
+                                    $total = $total + ($result['PRE_Producto'] * $cantidad[$i]);
                                     echo
                                         '    
                 <tr>
-                <th scope="row">'.($n).'</th>
+                <th scope="row">'.($i+1).'</th>
                 <td>'.$result['NOM_Producto'].'</td>
-                <td>'.number_format($result['PRE_Producto']).'</td>
+                <td>'.$cantidad[$i].'</td>
+                <td>'.number_format($result['PRE_Producto']*$cantidad[$i]).'</td>
                 </tr>
                 ';
                                 }
                             }
-
-                            /**<tr>
-                            <th scope="row">$n</th>
-                            <td>'.$valor[$a].'</td>
-                            <td>Otto</td>
-                            </tr>   **/
                         }else{
                             header("Location: ../Vista/Errores/SinArticulos.php");
                         }
                         ?>
                         <tr>
-                            <th scope="row"><?php echo ($n+1); ?></th>
-                            <td>Total</td>
+                            <th scope="row"><?php echo ($i+1); ?></th>
+                            <td><strong>Total</strong></td>
+                            <td><?php echo $cantotal ;?></td>
                             <td><?php echo number_format($total) ;?></td>
                         </tr>
                         </tbody>
@@ -111,6 +110,7 @@ $conection = new Conexion();
 
         <input name="fecha" type="text" hidden value="<?php echo date("Y/m/d");?>">
         <input name="total" type="text" hidden value="<?php echo $total;?>">
+        <input name="canttotal" type="text" hidden value="<?php echo $cantotal;?>">
     </form>
 </div>
 </body>

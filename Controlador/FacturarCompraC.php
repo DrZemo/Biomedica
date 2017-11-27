@@ -18,15 +18,17 @@ if (isset($_SESSION['idcliente'])) {
     $idcliente = $_SESSION['idcliente'];
     $fecha = $_POST['fecha'];
     $total = $_POST['total'];
+    $cantotal = $_POST['canttotal'];
     $idProductos = $_POST['idProductos'];
+    $cantidad = $_POST['cantidades'];
     $idFact = $fecha."".$idcliente."".$total;
 
-    $inserFactura = "INSERT INTO tlbFactura(ID_FACTURA,ID_Cliente,FECHAR,TOTAL) VALUES ('".$idFact."','".$idcliente."','".$fecha."','".$total."')";
+    $inserFactura = "INSERT INTO tlbFactura(ID_FACTURA,ID_Cliente,FECHAR,CANTIDAD,TOTAL) VALUES ('".$idFact."','".$idcliente."','".$fecha."','".$cantotal."','".$total."')";
     mysqli_query($con->conectarMysql(),$inserFactura);
 
-    foreach ($idProductos as $id){
-
-        $inserDetFact = "INSERT INTO tblDETALLE_FACTURA(ID_FACTURA,ID_Producto) VALUES ('".$idFact."','".$id."')";
+    for ($i = 0; $i < sizeof($idProductos); $i++){
+        echo $cantidad[$i]."<br>";
+        $inserDetFact = "INSERT INTO tblDETALLE_FACTURA(ID_FACTURA,ID_Producto,CANTIDAD) VALUES ('".$idFact."','".$idProductos[$i]."','".$cantidad[$i]."')";
 
         mysqli_query($con->conectarMysql(),$inserDetFact);
     }
