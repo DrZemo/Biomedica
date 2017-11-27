@@ -200,7 +200,7 @@ session_start();
                     <?php
                     include ('../Modelo/Conexion.php');
                     $conection = new Conexion();
-                    $consulta = "SELECT ID_Producto,NOM_Producto,PRE_Producto,DCN_Producto,IMG_Producto FROM tblProducto";
+                    $consulta = "SELECT ID_Producto,NOM_Producto,PRE_Producto,DCN_Producto,IMG_Producto,Cantidad FROM tblProducto";
                     $resultado = mysqli_query($conection->conectarMysql(),$consulta);
                     $n=10;
                     while($row = mysqli_fetch_array($resultado)){
@@ -220,7 +220,7 @@ session_start();
                                                 <i class="fa fa-money fa-2x" aria-hidden="true"></i>
                                             </div>
                                             <input type="text" value="'.number_format($row['PRE_Producto']).'" class="form-control" id="inlineFormInputGroup" readonly>
-                                            <input name="cantidad[]" type="number" value="0" min="0" max="10" class="form-control" id="inlineFormInputGroup" >
+                                            <input name="cantidadQuerida[]" type="number" value="'.$row['Cantidad'].'" min="0" max="10" class="form-control" id="inlineFormInputGroup" >
                                         </div>
                                         </p>
                                         <hr class="my-4">

@@ -64,24 +64,28 @@ $conection = new Conexion();
 
                         if (!empty($_POST['producto'])){
                             $checkProducto = $_POST['producto'];
-                            $cantidad = $_POST['cantidad'];
+                            $cantidadQuer = $_POST['cantidadQuerida'];
                             $total = 0; $n = 0; $cantotal = 0;
                             for($i = 0; $i < sizeof($checkProducto); $i++){
-                                $consulta = mysqli_query($conection->conectarMysql(),"SELECT NOM_Producto, PRE_Producto FROM tblProducto WHERE ID_Producto = '".$checkProducto[$i]."'");
-                                $cantotal = $cantotal + $cantidad[$i];
+                                $consulta = mysqli_query($conection->conectarMysql(),"SELECT NOM_Producto, PRE_Producto, Cantidad FROM tblProducto WHERE ID_Producto = '".$checkProducto[$i]."'");
+                                $cantotal = $cantotal + $cantidadQuer[$i];
                                 while ($result = mysqli_fetch_array($consulta)){
+                                    if  ($result['Cantidad']<$cantidadQuer[$i]){
+                                        header("Location: ../Vista/Errores/CantidadNoDisponible.php");
+                                    }
                                     ?>
+                                    <input name="CantidadBodega[]" type="text" hidden value="<?php echo $result['Cantidad']; ?>">
                                     <input name="idProductos[]" type="text" hidden value="<?php echo $checkProducto[$i]; ?>">
-                                    <input name="cantidades[]" type="text" hidden value="<?php echo $cantidad[$i]; ?>">
+                                    <input name="cantidadesQuer[]" type="text" hidden value="<?php echo $cantidadQuer[$i]; ?>">
                                     <?php
-                                    $total = $total + ($result['PRE_Producto'] * $cantidad[$i]);
+                                    $total = $total + ($result['PRE_Producto'] * $cantidadQuer[$i]);
                                     echo
                                         '    
                 <tr>
                 <th scope="row">'.($i+1).'</th>
                 <td>'.$result['NOM_Producto'].'</td>
-                <td>'.$cantidad[$i].'</td>
-                <td>'.number_format($result['PRE_Producto']*$cantidad[$i]).'</td>
+                <td>'.$cantidadQuer[$i].'</td>
+                <td>'.number_format($result['PRE_Producto']*$cantidadQuer[$i]).'</td>
                 </tr>
                 ';
                                 }
