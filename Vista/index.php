@@ -210,13 +210,15 @@ $consulta = "SELECT ID_Producto,NOM_Producto,PRE_Producto,DCN_Producto,IMG_Produ
                             echo
                                 '
                             <div class="col-sm-4 col-xs-2">
-                                <div class="card m-2" style="width: 20rem;">
+                                <div class="card m-2" style="width: 20rem;height: 90vh;">
                                     <img class="card-img-top" style="height: 40vh;" src="../Controlador/fotos/'.$ruta_img.'" alt="Card image cap">
                                     <div class="card-block">
-                                        <hr class="my-4">
+                                        <hr class="my-0">
+                                        <p>
                                         <h4 class="card-title">'.$row['NOM_Producto'].'</h4>
-                                        <p style="height: 10vh;">
-                                        <strong>Modelo:</strong> '.$row['DCN_Producto'].'
+                                        <br>
+                                        <p><strong>Modelo:</strong> '.$row['DCN_Producto'].'</p>
+                                        <br>
                                         <div class="input-group mb-2 mr-sm-2 mb-sm-0">
                                             <div class="input-group-addon">
                                                 <i class="fa fa-money fa-2x" aria-hidden="true"></i>
@@ -224,7 +226,7 @@ $consulta = "SELECT ID_Producto,NOM_Producto,PRE_Producto,DCN_Producto,IMG_Produ
                                             <input type="text" value="'.number_format($row['PRE_Producto']).'" class="form-control" id="inlineFormInputGroup" readonly>
                                             <input name="cantidadQuerida[]" type="number" value="'.$row['Cantidad'].'" min="0" max="10" class="form-control" id="inlineFormInputGroup" >
                                         </div>
-                                        </p>
+                                        </p>    
                                         <hr class="my-4">
                                         <div class="form-check">
                                           <label class="form-check-label">

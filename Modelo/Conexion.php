@@ -13,6 +13,7 @@ class Conexion
 
     function Conexion(){
         $this->conec =new mysqli("localhost","root","","DB_BIOMEDICA");
+        $this->conec->set_charset("utf8");
     }
 
     function conectarMysqlParameters($servi,$usua,$contra,$databa){
@@ -27,7 +28,7 @@ class Conexion
 
     public function conectarMysql(){
         if ($this->conec->connect_error){
-            return false;
+            return   false;
         }else{
             return $this->conec;
         }
