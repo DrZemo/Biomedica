@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <?php
 session_start();
+include ('../Modelo/Conexion.php');
+$conection = new Conexion();
+$consulta = "SELECT ID_Producto,NOM_Producto,PRE_Producto,DCN_Producto,IMG_Producto,Cantidad FROM tblProducto";
 ?>
 <!---
 /**
@@ -198,15 +201,14 @@ session_start();
                 </div>
                 <div class="modal-body row">
                     <?php
-                    include ('../Modelo/Conexion.php');
-                    $conection = new Conexion();
-                    $consulta = "SELECT ID_Producto,NOM_Producto,PRE_Producto,DCN_Producto,IMG_Producto,Cantidad FROM tblProducto";
                     $resultado = mysqli_query($conection->conectarMysql(),$consulta);
-                    $n=10;
-                    while($row = mysqli_fetch_array($resultado)){
-                        $ruta_img = $row['IMG_Producto'];
-                        echo
-                            '
+                    if ($conection->conectarMysql() == false){
+                        header("Location: ../Vista/Errores/FalloConexionDB.php");
+                    }else{
+                        while($row = mysqli_fetch_array($resultado)){
+                            $ruta_img = $row['IMG_Producto'];
+                            echo
+                                '
                             <div class="col-sm-4 col-xs-2">
                                 <div class="card m-2" style="width: 20rem;">
                                     <img class="card-img-top" style="height: 40vh;" src="../Controlador/fotos/'.$ruta_img.'" alt="Card image cap">
@@ -235,6 +237,7 @@ session_start();
                                 </div>
                             </div>
                             ';
+                        }
                     }
                     ?>
                 </div>

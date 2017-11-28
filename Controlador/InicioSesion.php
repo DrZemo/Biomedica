@@ -17,7 +17,7 @@
     if (empty($usuario)&&empty($contraseña)){
         header("Location: ../Vista/Errores/SinDatos.php");
     }else {
-        $resultado = mysqli_query($con->conectarMysqlParameters("localhost","root","","DB_VENTAHERRAMIENTAS"), " SELECT * FROM tblEmpleado WHERE ID_Empleado = '" . $usuario . "' ");
+        $resultado = mysqli_query($con->conectarMysql(), " SELECT * FROM tblEmpleado WHERE ID_Empleado = '" . $usuario . "' ");
         $row = mysqli_fetch_array($resultado);
 
         if ($row['ID_Empleado'] == $usuario) {

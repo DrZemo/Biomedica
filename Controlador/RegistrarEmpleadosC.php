@@ -8,17 +8,21 @@
 include('../Modelo/Conexion.php');
 $conection = new Conexion();
 
-$id = $_POST['id'];
-$us= $_POST['usuario'];
-$pass = $_POST['contraseña'];
-$email = $_POST['email'];
-
-$consulta = "INSERT INTO tblEmpleado(ID_Empleado,USUARIO_Empleado,PAS_Empleado,EMAIL) VALUES('".$id."','".strtoupper($us)."','".$pass."','".$email."')";
-$resultado = mysqli_query($conection->conectarMysql(),$consulta);
-
-if ($resultado){
-    header("Location: ../Vista/index.php");
+if ($conection->conectarMysql() == false){
+    header("Location: ../Vista/Errores/FalloConexionDB.php");
 }else{
-    echo ":(";
+    $id = $_POST['id'];
+    $us= $_POST['usuario'];
+    $pass = $_POST['contraseña'];
+    $email = $_POST['email'];
+
+    $consulta = "INSERT INTO tblEmpleado(ID_Empleado,USUARIO_Empleado,PAS_Empleado,EMAIL) VALUES('".$id."','".strtoupper($us)."','".$pass."','".$email."')";
+    $resultado = mysqli_query($conection->conectarMysql(),$consulta);
+
+    if ($resultado !=  null){
+        header("Location: ../Vista/index.php");
+    }else{
+        header("Location: ../Vista/Errores/FalloIngresoDatos.php");
+    }
 }
 ?>

@@ -9,6 +9,11 @@
 class Conexion
 {
     var $servidor,$usuario,$contraseña,$database;
+    var $conec;
+
+    function Conexion(){
+        $this->conec =new mysqli("localhost","root","","DB_BIOMEDICA");
+    }
 
     function conectarMysqlParameters($servi,$usua,$contra,$databa){
         $cad = mysqli_connect($servi,$usua,$contra,$databa);
@@ -20,14 +25,12 @@ class Conexion
         return $cad;
     }
 
-    function conectarMysql(){
-        $conec = mysqli_connect("localhost","root","","DB_BIOMEDICA");
-
-        if ($conec){
+    public function conectarMysql(){
+        if ($this->conec->connect_error){
+            return false;
         }else{
-            echo ":(";
+            return $this->conec;
         }
-        return $conec;
     }
 
 

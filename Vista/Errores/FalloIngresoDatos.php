@@ -3,9 +3,9 @@
 /**
 /**
  * Created by PhpStorm.
- * User: CAMILO
- * Date: 22/11/2017
- * Time: 23:33
+ * User: camilo mejia monsalve
+ * Date: 28/11/2017
+ * Time: 12:19
  */--->
 <html lang="en">
 
@@ -30,14 +30,13 @@
                 <i class="fa fa-commenting fa-5x hidden-xs-down" aria-hidden="true"></i>
             </div>
             <div class="modal-body">
-                <div class="alert alert-info text-center" role="alert">
+                <div class="alert alert-danger text-center" role="alert">
                     <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
-                    <strong>Parece que no tienes permiso para entrar a este sitio!</strong> <br> recuerda que solo los cliente pueden hacer compras y solo los empleados registran productos,
-                    <br> Recuerda ingresar tu documento si eres un cliente o tu nombre de usuario si eres un empleado.
+                    <strong>tenemos problemas en el ingreso de los datos a la base de datos!</strong> <br> Revisa la conexion o comunicate con soporte para una solucion pronta.
                 </div>
                 <p class="lead"></p>
                 <hr class="my-4">
-                <p class="text-center">Para poder registrar productos o hacer compras primero inicia sesíon. <br> <i class="fa fa-meh-o fa-5x" aria-hidden="true"></i>
+                <p class="text-center">Por el momento todos los servicios estaran suspendidos. <br> <i class="fa fa-frown-o fa-5x" aria-hidden="true"></i>
                 </p>
             </div>
             <div class="modal-footer justify-content-center">
