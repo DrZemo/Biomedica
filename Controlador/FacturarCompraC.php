@@ -22,7 +22,12 @@ if (isset($_SESSION['idcliente'])) {
     $cantidadBodega = $_POST['CantidadBodega'];
     $idProductos = $_POST['idProductos'];
     $cantidadQuer = $_POST['cantidadesQuer'];
-
+/*
+ * si el cliente factura la compra se crea una id de factura teniendo en cuenta la fecha el id del cliente
+ *  y el valor de la compra, se guardan los datos de la factura en la table tblFactura y se guardan los productos
+ * de la compra en la tabla tblDETALLEFACTURA, posteriormente se actualiza la cantidad de productos disponibles y
+ *  se finaliza la compra :)
+ */
     $idFact = $fecha."".$idcliente."".$total;
 
     $inserFactura = "INSERT INTO tlbFactura(ID_FACTURA,ID_Cliente,FECHAR,CANTIDAD,TOTAL) VALUES ('".$idFact."','".$idcliente."','".$fecha."','".$cantotal."','".$total."')";

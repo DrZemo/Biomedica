@@ -18,6 +18,8 @@ if (isset($_SESSION['idcliente'])) {
 }
 
 include('../Modelo/Conexion.php');
+include ('libPdf/lib/mpdf.php');
+$mpdf = new mPDF('c','A4');
 $conection = new Conexion();
 ?>
 <html lang="en">
@@ -40,7 +42,24 @@ $conection = new Conexion();
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 
-<!-- container--->
+    <!-- este formulario primero lee los datos enviados del formulario index.php, el formulario recibe
+      en un método POST los valores enviados por el index que corresponden a los id de los productos seleccionados
+       los cuales son un arreglo, si estos no estan vacios el programa guarda la información en sus correspondientes
+       variables, teniendo en cuenta la cantidad seleccionada y el id del producto se crea un bucle for que recorre
+        desde $i = 0 hasta llegar a que $i sea menor que el tamaño del arreglo que contiene los productos,
+         en el interior del bucle se crea una consulta que teniendo en cuenta el id del producto consulta
+         su precio y cantidad existente y una variable llamada $cantotal acumula todas las cantidades requeridas
+         de los productos seleccionados, esto con el fin de validar que el cliente no seleccione más productos de
+         los que realmente existe, si el cliente selecciona más productos de los que hay en existencia se le envía
+          a la página CantidadNoDisponible.php  guarda los datos arrojados de la consulta en un arreglo llamado
+          $result y este a tu vez es recorrido   el programa calcula el precio, mientras que una variable llamada
+          $total acumula el precio de cada producto por la cantidad, luego los datos son imprimidos en una tabla
+           teniendo en cuenta su nombre, precio y valor. --->
+
+<?php
+$mpdf->writeHTML('<h1>hola mundo</h1>');
+$mpdf->Output('reportes.pdf','I');
+?>
 <div class="container">
     <form action="../Controlador/FacturarCompraC.php" method="post" enctype="multipart/form-data">
         <div class="mt-5 mb-5" role="document">
@@ -51,6 +70,7 @@ $conection = new Conexion();
                 </div>
                 <div class="modal-body">
                     <table class="table table-hover">
+                        <!-- los productos selecciondos se muestran en una tabla -->
                         <thead>
                         <tr>
                             <th>#</th>
@@ -61,15 +81,24 @@ $conection = new Conexion();
                         </thead>
                         <tbody>
                         <?php
-
+/*valida la existencia de productos enviados por el index,*/
                         if (!empty($_POST['producto'])){
+                            /*iguala los productos selecionados a un arreglo ya que ests pueden ser muchos*/
                             $checkProducto = $_POST['producto'];
+                            /*obtiene la cantidad de productos querida por un cliente*/
                             $cantidadQuer = $_POST['cantidadQuerida'];
+                            /*se inician las variables que contaran el total de productos y el total del valor */
                             $total = 0; $n = 0; $cantotal = 0;
+                            /* recore el arreglo de los productos seleccionados por el cliente */
                             for($i = 0; $i < sizeof($checkProducto); $i++){
+                                /*consulta el valor de los productos y la cantidad exisente */
                                 $consulta = mysqli_query($conection->conectarMysql(),"SELECT NOM_Producto, PRE_Producto, Cantidad FROM tblProducto WHERE ID_Producto = '".$checkProducto[$i]."'");
                                 $cantotal = $cantotal + $cantidadQuer[$i];
+                                /*recorre el resultado de la consulta */
                                 while ($result = mysqli_fetch_array($consulta)){
+                                    /*verifica que la cantidad querida del producto no sea mayor a la cantidad existente,
+                                    si lo es el progrema envia al cliente a un formulario que le informa que la cantidad no esta disponible,
+                                    */
                                     if  ($result['Cantidad']<$cantidadQuer[$i]){
                                         header("Location: ../Vista/Errores/CantidadNoDisponible.php");
                                     }
@@ -79,6 +108,7 @@ $conection = new Conexion();
                                     <input name="cantidadesQuer[]" type="text" hidden value="<?php echo $cantidadQuer[$i]; ?>">
                                     <?php
                                     $total = $total + ($result['PRE_Producto'] * $cantidadQuer[$i]);
+                                    /*imprime en filas los datos de los productos con su costo ya calculado*/
                                     echo
                                         '    
                 <tr>

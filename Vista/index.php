@@ -122,6 +122,13 @@ $consulta = "SELECT ID_Producto,NOM_Producto,PRE_Producto,DCN_Producto,IMG_Produ
             <button class="btn btn-outline-info mx-2 my-2 my-sm-0" type="submit">
                 <i class="fa fa-search" aria-hidden="true"></i>
                 Consulta</button>
+            <!--
+            esta condición revisa que la sesión está iniciada por cliente o por usuario,
+             de manera que si está iniciada mostrará el drop dow list con el nombre del
+              cliente y la opción de cerrar sesión, de lo contrario mostrará el botón e iniciar sesión,
+               el cual activa el modal que esta escrito después de toda la etiqueta nav para que se ingresen
+                los campos de documento y contraseña
+                -->
             <?php if(isset($_SESSION['empleado'])||isset($_SESSION['cliente'])){
                 ?>
 
@@ -200,11 +207,27 @@ $consulta = "SELECT ID_Producto,NOM_Producto,PRE_Producto,DCN_Producto,IMG_Produ
                     <h1>Productos</h1>
                 </div>
                 <div class="modal-body row">
+                    <!-- este formulario se envía al archivo php facturar compra,
+                     pero antes de eso, se consulta en la base de datos los productos
+                      registrados con los campos a mostrar en la página web, en caso de que la
+                       conexión no sea exitosa, el programa redireccionará al cliente a una página que
+                        le mostrara un error de conexión con la base de datos, en este momento solo le menciona el error,
+                         mas no le muestra exhaustivamente cuál es. . -->
                     <?php
                     $resultado = mysqli_query($conection->conectarMysql(),$consulta);
                     if ($conection->conectarMysql() == false){
                         header("Location: ../Vista/Errores/FalloConexionDB.php");
                     }else{
+                        /*
+                         *  si la conexión es exitosa el programa procederá a crear un arreglo con los datos de la consulta,
+                         *  a este arreglo le llamaremos $row y con un bucle while lo recorremos para mostrar imprimir la
+                         *  información en pantalla.
+                         * aquí también creamos una etiqueta input de tipo checkbox que tendrá como nombre “productos[ ]”y tendrá
+                         * los corchetes para indicar al formulario de destino que va a recibir un arreglo,
+                         * el valor de esta etiqueta input es el id del producto, de esta forma sabemos sacar
+                         * el precio a los productos seleccionados, en caso tal de que el cliente no seleccione
+                         * productos éste será redirigido a una ventana informativa que le indica que debe seleccionar productos.
+                         * */
                         while($row = mysqli_fetch_array($resultado)){
                             $ruta_img = $row['IMG_Producto'];
                             echo
@@ -228,7 +251,7 @@ $consulta = "SELECT ID_Producto,NOM_Producto,PRE_Producto,DCN_Producto,IMG_Produ
                                         </div>
                                         </p>    
                                         <hr class="my-4">
-                                        <div class="form-check">
+                                        <div class="form-check mb-1">
                                           <label class="form-check-label">
                                             <input type="checkbox" class="form-check-input" name="producto[]" value="'.$row['ID_Producto'].'">
                                             <i class="fa fa-shopping-cart mr-2" aria-hidden="true"></i>
