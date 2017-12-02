@@ -247,6 +247,9 @@ $consulta = "SELECT ID_Producto,NOM_Producto,PRE_Producto,DCN_Producto,IMG_Produ
                                                 <i class="fa fa-money fa-2x" aria-hidden="true"></i>
                                             </div>
                                             <input type="text" value="'.number_format($row['PRE_Producto']).'" class="form-control" id="inlineFormInputGroup" readonly>
+                                            <!-- este arreglo de cantidades queridas por el usuario tiene un problema,
+                                            acumula todas las cantidades existentes en un arreglo y lo envia al formulario FacturarCompra,
+                                            de esta manera cuando el formulario recorra el arreglo no sabre distinguir que cantidad hace parte de que articulo--->
                                             <input name="cantidadQuerida[]" type="number" value="'.$row['Cantidad'].'" min="0" max="10" class="form-control" id="inlineFormInputGroup" >
                                         </div>
                                         </p>    

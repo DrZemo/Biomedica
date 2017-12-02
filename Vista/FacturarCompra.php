@@ -18,10 +18,11 @@ if (isset($_SESSION['idcliente'])) {
 }
 
 include('../Modelo/Conexion.php');
-include ('libPdf/lib/mpdf.php');
-$mpdf = new mPDF('c','A4');
+
 $conection = new Conexion();
+
 ?>
+
 <html lang="en">
 
 <head>
@@ -55,18 +56,13 @@ $conection = new Conexion();
           $result y este a tu vez es recorrido   el programa calcula el precio, mientras que una variable llamada
           $total acumula el precio de cada producto por la cantidad, luego los datos son imprimidos en una tabla
            teniendo en cuenta su nombre, precio y valor. --->
-
-<?php
-$mpdf->writeHTML('<h1>hola mundo</h1>');
-$mpdf->Output('reportes.pdf','I');
-?>
 <div class="container">
     <form action="../Controlador/FacturarCompraC.php" method="post" enctype="multipart/form-data">
         <div class="mt-5 mb-5" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h1>Cotización</h1>
-                    <i class="fa fa fa-credit-card fa-5x hidden-xs-down" aria-hidden="true"></i>
+                    <h1>Cotización INBIOSER</h1>
+                    <img src="img/logo.png">
                 </div>
                 <div class="modal-body">
                     <table class="table table-hover">
@@ -76,7 +72,8 @@ $mpdf->Output('reportes.pdf','I');
                             <th>#</th>
                             <th>Producto</th>
                             <th>Cantidad</th>
-                            <th>Precio</th>
+                            <th>Precio Unitario</th>
+                            <th>Precio Total</th>
                         </tr>
                         </thead>
                         <tbody>
@@ -109,12 +106,13 @@ $mpdf->Output('reportes.pdf','I');
                                     <?php
                                     $total = $total + ($result['PRE_Producto'] * $cantidadQuer[$i]);
                                     /*imprime en filas los datos de los productos con su costo ya calculado*/
-                                    echo
-                                        '    
+
+                                        echo '    
                 <tr>
                 <th scope="row">'.($i+1).'</th>
                 <td>'.$result['NOM_Producto'].'</td>
                 <td>'.$cantidadQuer[$i].'</td>
+                <td>'.number_format($result['PRE_Producto']).'</td>
                 <td>'.number_format($result['PRE_Producto']*$cantidadQuer[$i]).'</td>
                 </tr>
                 ';
@@ -128,13 +126,19 @@ $mpdf->Output('reportes.pdf','I');
                             <th scope="row"><?php echo ($i+1); ?></th>
                             <td><strong>Total</strong></td>
                             <td><?php echo $cantotal ;?></td>
+                            <td></td>
                             <td><?php echo number_format($total) ;?></td>
                         </tr>
                         </tbody>
                     </table>
                 </div>
                 <div class="modal-footer">
-                    <button type="submit" class="btn btn-primary">
+                    <!--- PROBLEMAS PARA GENERAR EL PDF, COMPATIVILIDAD DE VERCIONES DE PHP--->
+                    <button name="generarPDF" type="submit" class="btn btn-danger">
+                        <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+                        Generar PDF
+                    </button>
+                    <button name="comprar" type="submit" class="btn btn-primary">
                         <i class="fa fa-handshake-o mr-2" aria-hidden="true"></i>
                         Comprar
                     </button>

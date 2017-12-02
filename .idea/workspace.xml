@@ -2,11 +2,758 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97600665-0fa5-4ccd-a05a-29a330bd695f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/webServers.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/CHANGELOG.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/CREDITS.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/README.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/classes/barcode.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/classes/bmp.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/classes/cssmgr.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/classes/desktop.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/classes/directw.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/classes/gif.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/classes/grad.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/classes/indic.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/classes/meter.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/classes/mpdfform.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/classes/myanmar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/classes/otl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/classes/otl_dump.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/classes/sea.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/classes/svg.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/classes/tocontents.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/classes/ttfontsuni.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/classes/ttfontsuni_analysis.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/classes/ucdn.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/classes/wmf.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Afrikaans_South_Africa.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Albanian_Albania.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Alsatian_France.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Arabic_Algeria.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Arabic_Bahrain.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Arabic_Egypt.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Arabic_Iraq.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Arabic_Jordan.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Arabic_Kuwait.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Arabic_Lebanon.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Arabic_Libya.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Arabic_Morocco.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Arabic_Oman.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Arabic_Pseudo_RTL.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Arabic_Qatar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Arabic_Saudi_Arabia.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Arabic_Syria.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Arabic_Tunisia.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Arabic_Yemen.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Azeri_(Cyrillic)_Azerbaijan.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Azeri_(Latin)_Azerbaijan.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Bashkir_Russia.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Basque_Spain.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Belarusian_Belarus.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Bosnian_(Cyrillic)_Bosnia_and_Herzegovina.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Bosnian_(Latin)_Bosnia_and_Herzegovina.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Breton_France.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Bulgarian_Bulgaria.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Catalan_Spain.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Corsican_France.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Croatian_(Latin)_Bosnia_and_Herzegovina.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Croatian_Croatia.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Czech_Czech_Republic.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Danish_Denmark.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Dari_Afghanistan.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Dutch_Belgium.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Dutch_Netherlands.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/English_Australia.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/English_Belize.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/English_Canada.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/English_Caribbean.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/English_India.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/English_Ireland.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/English_Jamaica.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/English_Malaysia.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/English_New_Zealand.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/English_Republic_of_the_Philippines.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/English_Singapore.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/English_South_Africa.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/English_Trinidad_and_Tobago.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/English_United_Kingdom.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/English_United_States.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/English_Zimbabwe.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Estonian_Estonia.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Faroese_Faroe_Islands.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Filipino_Philippines.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Finnish_Finland.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/French_Belgium.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/French_Canada.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/French_France.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/French_Luxembourg.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/French_Principality_of_Monaco.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/French_Switzerland.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Frisian_Netherlands.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Galician_Spain.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/German_Austria.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/German_Germany.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/German_Liechtenstein.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/German_Luxembourg.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/German_Switzerland.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Greek_Greece.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Greenlandic_Greenland.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Hausa_(Latin)_Nigeria.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Hebrew_Israel.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Hungarian_Hungary.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Icelandic_Iceland.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Igbo_Nigeria.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Indonesian_Indonesia.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Inuktitut_(Latin)_Canada.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Invariant_Language_Invariant_Country.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Irish_Ireland.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Italian_Italy.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Italian_Switzerland.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Kinyarwanda_Rwanda.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Kiswahili_Kenya.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Kyrgyz_Kyrgyzstan.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Latvian_Latvia.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Lithuanian_Lithuania.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Lower_Sorbian_Germany.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Luxembourgish_Luxembourg.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Macedonian_(FYROM)_Macedonia_(FYROM).php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Malay_Brunei_Darussalam.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Malay_Malaysia.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Mapudungun_Chile.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Mohawk_Canada.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Mongolian_(Cyrillic)_Mongolia.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Norwegian_(Nynorsk)_Norway.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Occitan_France.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Persian_Iran.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Polish_Poland.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Portuguese_Brazil.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Portuguese_Portugal.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Quechua_Bolivia.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Quechua_Ecuador.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Quechua_Peru.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Romanian_Romania.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Romansh_Switzerland.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Russian_Russia.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Sami_(Inari)_Finland.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Sami_(Lule)_Norway.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Sami_(Lule)_Sweden.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Sami_(Northern)_Finland.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Sami_(Northern)_Norway.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Sami_(Northern)_Sweden.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Sami_(Skolt)_Finland.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Sami_(Southern)_Norway.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Sami_(Southern)_Sweden.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Serbian_(Cyrillic)_Bosnia_and_Herzegovina.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Serbian_(Cyrillic)_Serbia.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Serbian_(Latin)_Bosnia_and_Herzegovina.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Serbian_(Latin)_Serbia.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Sesotho_sa_Leboa_South_Africa.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Setswana_South_Africa.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Slovak_Slovakia.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Slovenian_Slovenia.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Spanish_Argentina.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Spanish_Bolivia.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Spanish_Chile.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Spanish_Colombia.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Spanish_Costa_Rica.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Spanish_Dominican_Republic.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Spanish_Ecuador.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Spanish_El_Salvador.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Spanish_Guatemala.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Spanish_Honduras.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Spanish_Mexico.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Spanish_Nicaragua.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Spanish_Panama.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Spanish_Paraguay.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Spanish_Peru.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Spanish_Puerto_Rico.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Spanish_Spain.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Spanish_United_States.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Spanish_Uruguay.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Spanish_Venezuela.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Swedish_Finland.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Swedish_Sweden.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Tajik_(Cyrillic)_Tajikistan.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Tamazight_(Latin)_Algeria.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Tatar_Russia.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Turkish_Turkey.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Turkmen_Turkmenistan.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Ukrainian_Ukraine.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Upper_Sorbian_Germany.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Urdu_Islamic_Republic_of_Pakistan.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Uzbek_(Cyrillic)_Uzbekistan.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Uzbek_(Latin)_Uzbekistan.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Vietnamese_Vietnam.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Welsh_United_Kingdom.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Wolof_Senegal.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Yakut_Russia.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/Yoruba_Nigeria.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/isiXhosa_South_Africa.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/collations/isiZulu_South_Africa.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/compress.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/config.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/config_fonts-distr-without-OTL.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/config_fonts.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/config_lang2fonts.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/config_script2lang.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/BGR-Red-Ducati_WCS-Test-TriState.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/ColorGammaGradient.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/Lower_Left.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/Lower_Right.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/MathJaxProcess.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/MathJaxSample.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/Upper_Left.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/Upper_Right.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/alpha.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/alpha09.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/alpha3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/alpha36.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/bach1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/bayeux1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/bayeux2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/bgan6a16.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/bgan6a162.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/bgbarcode.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/bgrock.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/borders2FF.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/borders2IE.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/borders3FF.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/borders3IE.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/borders4FF.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/borders4IE.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/bordersFF.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/bordersIE.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/butterfly_ProPhoto.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/butterfly_ProPhoto.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/cc9900.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/cc9900.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/cc9900_002.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/cc9900_003.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/cc9900_004.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/cc9900_005.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/clematis.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/colourTestFakeBRG.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/example01_basic.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/example02_CSS_styles.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/example03_backgrounds_and_borders.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/example04_images.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/example05_tables.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/example06_tables_nested.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/example07_tables_borders.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/example08_lists.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/example09_forms.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/example10_floating_and_fixed_position_elements.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/example11_overflow_auto.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/example12_paging_html.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/example13_paging_css.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/example14_page_numbers_ToC_Index_Bookmarks.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/example16_headers_method_2.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/example18_headers_method_4.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/example19_page_sizes.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/example20_justify.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/example21_hyphenation.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/example22_columns.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/example23_orientation.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/example24_orientation_2.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/example26_RTL.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/example27_CJK_using_Adobe_fonts.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/example28_CJK_using_embedded_fonts.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/example29_multilingual_autofont.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/example32_indic.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/example33_unicode_supplementary_planes.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/example34_invoice_example.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/example35_watermarks.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/example36_annotations_and_Attached_files.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/example37_barcodes.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/example38_dot_tab.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/example39_PDFA_compliance.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/example40_MPDFI_thumbnails.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/example41_MPDFI_template.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/example42_MPDFI_templatedoc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/example43_MPDFI_booklet.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/example44_MPDFI_yearbook.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/example46_progress_bars_simple.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/example47_progress_bars_simple_custom.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/example48_progress_bars_advanced.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/example52_lineheight.htm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/example52_new_mPDF_4-2_features.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/example54_new_mPDF_v5-1_features_gradients_and_images.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/example55_new_mPDF_v5-1_color_and_other_features.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/example56_new_mPDF_v5-1_features_grayscale.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/example57_new_mPDF_v5-3_active_forms.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/example58_new_mPDF_v5-4_features.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/example59_new_mPDF_v5-6_features.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/example60_new_mPDF_v5-7_features.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/example61_new_mPDF_v6-0_features.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/example62_new_mPDF_v6-0_features Multilingual.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/example63_new_mPDF_v6-0_features Images.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/example_test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/flowers-pattern.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/fonts-elem-01-t.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/formsubmit.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/goto.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/goto2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/goto2rtl.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/img1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/img2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/img3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/img4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/img5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/klematis.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/layers_tab.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/mpdfstyleA4.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/mpdfstylePaged.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/mpdfstyletables.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/sample_basic.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/sample_logoheader2.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/sample_orientation2.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/sample_orientation3.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/sunset.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/test.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/tiger.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/tiger.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/tiger.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/tiger.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/tiger.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/tiger.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/tiger.wmf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/tiger2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/tiger2.wmf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/tiger24trns.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/tiger300px300dpi.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/tiger300px96dpi.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/tiger8trns.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/tigercmyk.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/tux.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/examples/windmill.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/font/ccourier.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/font/ccourierb.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/font/ccourierbi.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/font/ccourieri.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/font/chelvetica.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/font/chelveticab.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/font/chelveticabi.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/font/chelveticai.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/font/csymbol.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/font/ctimes.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/font/ctimesb.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/font/ctimesbi.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/font/ctimesi.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/font/czapfdingbats.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/graph.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/graph_cache/dummy.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/iccprofiles/SWOP2006_Coated5v2.icc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/iccprofiles/sRGB_IEC61966-2-1.icc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/includes/CJKdata.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/includes/functions.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/includes/linebrdictK.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/includes/linebrdictL.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/includes/linebrdictT.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/includes/no_image.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/includes/out.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/includes/subs_core.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/includes/subs_win-1252.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/includes/upperCase.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/lang2fonts.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/mpdf.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/mpdf.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/mpdfi/filters/FilterASCII85.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/mpdfi/filters/FilterLZW.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/mpdfi/fpdi_pdf_parser.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/mpdfi/pdf_context.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/mpdfi/pdf_parser.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/patterns/NOTES.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/patterns/de.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/patterns/dictionary.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/patterns/en.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/patterns/es.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/patterns/fi.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/patterns/fr.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/patterns/it.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/patterns/nl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/patterns/pl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/patterns/ru.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/patterns/sv.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/progbar.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/_LGPL.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/_lisez_moi.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/modele1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/modele10.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/modele11.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/modele12.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/modele13.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/modele14.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/modele15.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/modele16.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/modele17.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/modele18.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/modele19.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/modele2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/modele20.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/modele21.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/modele22.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/modele23.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/modele24.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/modele25.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/modele26.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/modele27.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/modele28.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/modele29.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/modele3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/modele30.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/modele31.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/modele32.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/modele33.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/modele34.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/modele35.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/modele36.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/modele37.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/modele38.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/modele39.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/modele4.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/modele40.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/modele5.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/modele6.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/modele7.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/modele8.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/modele9.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv10_0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv10_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv10_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv10_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv11_0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv11_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv11_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv11_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv12_0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv12_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv12_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv12_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv13_0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv13_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv13_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv13_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv14_0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv14_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv14_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv14_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv15_0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv15_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv15_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv15_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv16_0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv16_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv16_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv16_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv17_0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv17_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv17_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv17_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv18_0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv18_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv18_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv18_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv19_0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv19_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv19_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv19_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv1_0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv1_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv1_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv1_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv20_0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv20_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv20_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv20_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv21_0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv21_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv21_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv21_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv22_0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv22_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv22_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv22_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv23_0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv23_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv23_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv23_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv24_0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv24_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv24_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv24_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv25_0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv25_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv25_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv25_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv26_0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv26_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv26_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv26_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv27_0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv27_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv27_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv27_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv28_0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv28_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv28_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv28_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv29_0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv29_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv29_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv29_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv2_0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv2_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv2_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv2_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv30_0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv30_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv30_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv30_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv31_0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv31_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv31_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv31_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv32_0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv32_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv32_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv32_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv33_0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv33_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv33_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv33_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv34_0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv34_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv34_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv34_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv35_0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv35_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv35_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv35_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv36_0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv36_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv36_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv36_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv37_0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv37_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv37_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv37_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv38_0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv38_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv38_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv38_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv39_0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv39_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv39_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv39_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv3_0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv3_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv3_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv3_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv40_0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv40_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv40_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv40_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv4_0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv4_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv4_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv4_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv5_0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv5_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv5_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv5_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv6_0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv6_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv6_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv6_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv7_0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv7_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv7_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv7_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv8_0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv8_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv8_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv8_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv9_0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv9_1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv9_2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrv9_3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrvfr1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrvfr10.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrvfr11.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrvfr12.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrvfr13.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrvfr14.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrvfr15.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrvfr16.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrvfr17.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrvfr18.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrvfr19.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrvfr2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrvfr20.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrvfr21.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrvfr22.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrvfr23.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrvfr24.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrvfr25.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrvfr26.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrvfr27.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrvfr28.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrvfr29.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrvfr3.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrvfr30.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrvfr31.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrvfr32.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrvfr33.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrvfr34.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrvfr35.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrvfr36.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrvfr37.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrvfr38.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrvfr39.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrvfr4.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrvfr40.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrvfr5.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrvfr6.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrvfr7.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrvfr8.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/qrvfr9.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/rsc10.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/rsc13.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/rsc15.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/rsc16.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/rsc17.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/rsc18.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/rsc20.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/rsc22.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/rsc24.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/rsc26.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/rsc28.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/rsc30.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/rsc32.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/rsc34.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/rsc36.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/rsc40.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/rsc42.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/rsc44.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/rsc46.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/rsc48.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/rsc50.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/rsc52.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/rsc54.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/rsc56.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/rsc58.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/rsc60.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/rsc62.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/rsc64.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/rsc66.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/rsc68.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/data/rsc7.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/image.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/qrcode/qrcode.class.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/tmp/dummy.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfontdata/dummy.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/AboriginalSansREGULAR.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/Abyssinica_SIL.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/Aegean.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/Aegyptus.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/Akkadian.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/DBSILBR.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/DejaVuSans-Bold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/DejaVuSans-BoldOblique.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/DejaVuSans-Oblique.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/DejaVuSans.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/DejaVuSansCondensed-Bold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/DejaVuSansCondensed-BoldOblique.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/DejaVuSansCondensed-Oblique.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/DejaVuSansCondensed.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/DejaVuSansMono-Bold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/DejaVuSansMono-BoldOblique.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/DejaVuSansMono-Oblique.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/DejaVuSansMono.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/DejaVuSerif-Bold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/DejaVuSerif-BoldItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/DejaVuSerif-Italic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/DejaVuSerif.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/DejaVuSerifCondensed-Bold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/DejaVuSerifCondensed-BoldItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/DejaVuSerifCondensed-Italic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/DejaVuSerifCondensed.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/DejaVuinfo.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/Dhyana-Bold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/Dhyana-Regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/DhyanaOFL.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/FreeMono.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/FreeMonoBold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/FreeMonoBoldOblique.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/FreeMonoOblique.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/FreeSans.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/FreeSansBold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/FreeSansBoldOblique.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/FreeSansOblique.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/FreeSerif.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/FreeSerifBold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/FreeSerifBoldItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/FreeSerifItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/GNUFreeFontinfo.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/Garuda-Bold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/Garuda-BoldOblique.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/Garuda-Oblique.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/Garuda.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/Jomolhari-OFL.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/Jomolhari.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/KhmerOFL.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/KhmerOS.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/Lateef font OFL.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/LateefRegOT.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/Lohit-Kannada.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/LohitKannadaOFL.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/Padauk-book.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/Pothana2000.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/Quivira.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/Sun-ExtA.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/Sun-ExtB.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/SundaneseUnicode-1.0.5.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/SyrCOMEdessa.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/SyrCOMEdessa_license.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/TaameyDavidCLM-LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/TaameyDavidCLM-Medium.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/TaiHeritagePro.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/Tharlon-Regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/TharlonOFL.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/UnBatang_0613.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/Uthman.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/XB Riyaz.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/XB RiyazBd.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/XB RiyazBdIt.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/XB RiyazIt.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/XW Zar Font Info.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/ZawgyiOne.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/ayar.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/damase_v.2.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/kaputaunicode.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/lannaalif-v1-03.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/ocrb10.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/ttfonts/ocrbinfo.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/utils/UnicodeData.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/utils/UnicodeRanges.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/utils/font_collections.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/utils/font_coverage.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/utils/font_dump.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/utils/font_dump_OTL.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/utils/font_names.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/utils/image_details.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/lib/utils/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/pdf/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/pdf/img/dimension.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/pdf/img/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/pdf/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Vista/libPdf/pdf/reportes.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Controlador/FacturarCompraC.php" afterPath="$PROJECT_DIR$/Controlador/FacturarCompraC.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Controlador/InicioSesion.php" afterPath="$PROJECT_DIR$/Controlador/InicioSesion.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vista/FacturarCompra.php" afterPath="$PROJECT_DIR$/Vista/FacturarCompra.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vista/index.php" afterPath="$PROJECT_DIR$/Vista/index.php" />
     </list>
@@ -30,72 +777,106 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Vista/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="228" column="27" lean-forward="false" selection-start-line="228" selection-start-column="27" selection-end-line="228" selection-end-column="27" />
+            <state relative-caret-position="425">
+              <caret line="251" column="158" lean-forward="false" selection-start-line="251" selection-start-column="158" selection-end-line="251" selection-end-column="158" />
               <folding>
+                <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="e#6791#7953#0#PHP" expanded="false" />
-                <marker date="1512091484273" expanded="true" signature="117:213" ph="SELECT ID_Pr... tblProducto" />
-                <marker date="1512091484273" expanded="true" signature="12455:14626" ph="..." />
-                <marker date="1512091484273" expanded="true" signature="12518:12531" ph="..." />
-                <marker date="1512091484273" expanded="true" signature="12518:12544" ph="..." />
-                <marker date="1512091484273" expanded="true" signature="12545:14591" ph="..." />
-                <marker date="1512091484273" expanded="true" signature="12616:12629" ph="..." />
-                <marker date="1512091484273" expanded="true" signature="12753:14552" ph="..." />
-                <marker date="1512091484273" expanded="true" signature="12855:12896" ph="..." />
-                <marker date="1512091484273" expanded="true" signature="12994:13035" ph="..." />
-                <marker date="1512091484273" expanded="true" signature="12994:13176" ph="..." />
-                <marker date="1512091484273" expanded="true" signature="13222:13850" ph="..." />
-                <marker date="1512091484273" expanded="true" signature="13298:13450" ph="..." />
-                <marker date="1512091484273" expanded="true" signature="14027:14509" ph="..." />
-                <marker date="1512091484273" expanded="true" signature="14102:14462" ph="..." />
+                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <marker date="1512191281248" expanded="true" signature="117:213" ph="SELECT ID_Pr... tblProducto" />
+                <marker date="1512191281248" expanded="true" signature="12455:15047" ph="..." />
+                <marker date="1512191281248" expanded="true" signature="12518:12531" ph="..." />
+                <marker date="1512191281248" expanded="true" signature="12518:12544" ph="..." />
+                <marker date="1512191281248" expanded="true" signature="12545:15012" ph="..." />
+                <marker date="1512191281248" expanded="true" signature="12616:12629" ph="..." />
+                <marker date="1512191281248" expanded="true" signature="12753:14973" ph="..." />
+                <marker date="1512191281248" expanded="true" signature="12855:12896" ph="..." />
+                <marker date="1512191281248" expanded="true" signature="12994:13035" ph="..." />
+                <marker date="1512191281248" expanded="true" signature="12994:13176" ph="..." />
+                <marker date="1512191281248" expanded="true" signature="13222:14137" ph="..." />
+                <marker date="1512191281248" expanded="true" signature="13222:14271" ph="..." />
+                <marker date="1512191281248" expanded="true" signature="13298:13450" ph="..." />
+                <marker date="1512191281248" expanded="true" signature="13668:14037" ph="..." />
+                <marker date="1512191281248" expanded="true" signature="14448:14930" ph="..." />
+                <marker date="1512191281248" expanded="true" signature="14523:14883" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FacturarCompra.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FacturarCompra.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Vista/FacturarCompra.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-207">
-              <caret line="110" column="107" lean-forward="false" selection-start-line="110" selection-start-column="107" selection-end-line="110" selection-end-column="107" />
+            <state relative-caret-position="1048">
+              <caret line="135" column="91" lean-forward="false" selection-start-line="135" selection-start-column="91" selection-end-line="135" selection-end-column="91" />
               <folding>
-                <marker date="1512138927323" expanded="true" signature="5092:5197" ph="SELECT NOM_P... tblProducto" />
-                <marker date="1512138927323" expanded="true" signature="6736:6992" ph="..." />
+                <marker date="1512190255986" expanded="true" signature="426:3981" ph="..." />
+                <marker date="1512190255986" expanded="true" signature="434:946" ph="..." />
+                <marker date="1512190255986" expanded="true" signature="955:3981" ph="..." />
+                <marker date="1512190255986" expanded="true" signature="1611:3006" ph="..." />
+                <marker date="1512190255986" expanded="true" signature="3032:3981" ph="..." />
+                <marker date="1512190255986" expanded="true" signature="3132:3981" ph="..." />
+                <marker date="1512190255986" expanded="true" signature="3179:3981" ph="..." />
+                <marker date="1512190255986" expanded="true" signature="3219:3981" ph="..." />
+                <marker date="1512190255986" expanded="true" signature="3262:3379" ph="..." />
+                <marker date="1512190255986" expanded="true" signature="3420:3981" ph="..." />
+                <marker date="1512190255986" expanded="true" signature="3474:3981" ph="..." />
+                <marker date="1512190255986" expanded="true" signature="3591:3917" ph="..." />
+                <marker date="1512190255986" expanded="true" signature="3620:3884" ph="..." />
+                <marker date="1512190255986" expanded="true" signature="3949:3981" ph="..." />
+                <marker date="1512190255986" expanded="true" signature="4964:5069" ph="SELECT NOM_P... tblProducto" />
+                <marker date="1512190255986" expanded="true" signature="6573:6897" ph="..." />
+                <marker date="1512190255986" expanded="true" signature="7176:7511" ph="..." />
+                <marker date="1512190255986" expanded="true" signature="7639:8210" ph="..." />
+                <marker date="1512190255986" expanded="true" signature="8043:8187" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reportes.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Vista/libPdf/pdf/reportes.php">
+      <file leaf-file-name="FacturarCompraC.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Controlador/FacturarCompraC.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="97" column="25" lean-forward="false" selection-start-line="97" selection-start-column="25" selection-end-line="97" selection-end-column="25" />
+            <state relative-caret-position="374">
+              <caret line="40" column="97" lean-forward="false" selection-start-line="40" selection-start-column="97" selection-end-line="40" selection-end-column="97" />
               <folding>
-                <marker date="1512137966066" expanded="false" signature="49:3281" ph="..." />
-                <marker date="1512137966066" expanded="true" signature="58:191" ph="..." />
-                <marker date="1512137966066" expanded="true" signature="200:3273" ph="..." />
-                <marker date="1512137966066" expanded="true" signature="232:1036" ph="..." />
-                <marker date="1512137966066" expanded="true" signature="256:300" ph="..." />
-                <marker date="1512137966066" expanded="true" signature="375:593" ph="..." />
-                <marker date="1512137966066" expanded="true" signature="620:1022" ph="..." />
-                <marker date="1512137966066" expanded="true" signature="1047:3151" ph="..." />
-                <marker date="1512137966066" expanded="true" signature="1061:2964" ph="..." />
-                <marker date="1512137966066" expanded="true" signature="1077:1299" ph="..." />
-                <marker date="1512137966066" expanded="true" signature="1092:1282" ph="..." />
-                <marker date="1512137966066" expanded="true" signature="1315:2949" ph="..." />
-                <marker date="1512137966066" expanded="true" signature="1330:1644" ph="..." />
-                <marker date="1512137966066" expanded="true" signature="1659:1943" ph="..." />
-                <marker date="1512137966066" expanded="true" signature="1958:2222" ph="..." />
-                <marker date="1512137966066" expanded="true" signature="2237:2536" ph="..." />
-                <marker date="1512137966066" expanded="true" signature="2551:2658" ph="..." />
-                <marker date="1512137966066" expanded="true" signature="2673:2779" ph="..." />
-                <marker date="1512137966066" expanded="true" signature="2794:2932" ph="..." />
-                <marker date="1512137966066" expanded="true" signature="2991:3139" ph="..." />
-                <marker date="1512137966066" expanded="true" signature="3164:3263" ph="..." />
+                <marker date="1512190256070" expanded="true" signature="945:1066" ph="INSERT INTO tlbFactura... " />
+                <marker date="1512190256070" expanded="true" signature="945:1081" ph="INSERT INTO tlbFactura... " />
+                <marker date="1512190256070" expanded="true" signature="945:1094" ph="INSERT INTO tlbFactura... " />
+                <marker date="1512190256070" expanded="true" signature="1267:1377" ph="INSERT INTO tblDETALLE_FACTURA... " />
+                <marker date="1512190256070" expanded="true" signature="1267:1400" ph="INSERT INTO tblDETALLE_FACTURA... " />
+                <marker date="1512190256070" expanded="true" signature="1430:1548" ph="UPDATE tblPr... " />
+                <marker date="1512190256070" expanded="true" signature="2442:2763" ph="..." />
+                <marker date="1512190256070" expanded="true" signature="2475:2763" ph="..." />
+                <marker date="1512190256070" expanded="true" signature="2525:2763" ph="..." />
+                <marker date="1512190256070" expanded="true" signature="2541:2761" ph="..." />
+                <marker date="1512190256070" expanded="true" signature="2556:2744" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../pdf/pdf/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="70" column="37" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="70" selection-end-column="37" />
+              <folding>
+                <marker date="1484069572000" expanded="true" signature="61:100" ph="SELECT * FRO... usuarios" />
+                <marker date="1484069572000" expanded="true" signature="623:1020" ph="..." />
+                <marker date="1484069572000" expanded="true" signature="656:1020" ph="..." />
+                <marker date="1484069572000" expanded="false" signature="682:700" ph="..." />
+                <marker date="1484069572000" expanded="true" signature="782:1020" ph="..." />
+                <marker date="1484069572000" expanded="true" signature="798:1018" ph="..." />
+                <marker date="1484069572000" expanded="true" signature="813:1001" ph="..." />
+                <marker date="1484069572000" expanded="true" signature="1530:1720" ph="..." />
+                <marker date="1484069572000" expanded="false" signature="1571:1589" ph="..." />
+                <marker date="1484069572000" expanded="true" signature="1590:1705" ph="..." />
               </folding>
             </state>
           </provider>
@@ -127,13 +908,15 @@
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/cae20402-664f-47a2-a4c4-408da953d19c/console.sql" />
         <option value="$PROJECT_DIR$/Controlador/ResgistrarProductoC.php" />
         <option value="$PROJECT_DIR$/Modelo/Conexion.php" />
-        <option value="$PROJECT_DIR$/Vista/index.php" />
-        <option value="$PROJECT_DIR$/Controlador/FacturarCompraC.php" />
         <option value="$PROJECT_DIR$/Vista/libPdf/pdf/repostes.php" />
         <option value="$PROJECT_DIR$/Vista/libPdf/lib/mpdf.php" />
-        <option value="$PROJECT_DIR$/Vista/libPdf/pdf/reportes.php" />
         <option value="$PROJECT_DIR$/Controlador/InicioSesion.php" />
+        <option value="$PROJECT_DIR$/Vista/libPdf/pdf/index.html" />
+        <option value="$PROJECT_DIR$/Vista/Cotizacion.php" />
+        <option value="$PROJECT_DIR$/Vista/libPdf/pdf/reportes.php" />
         <option value="$PROJECT_DIR$/Vista/FacturarCompra.php" />
+        <option value="$PROJECT_DIR$/Controlador/FacturarCompraC.php" />
+        <option value="$PROJECT_DIR$/Vista/index.php" />
       </list>
     </option>
   </component>
@@ -184,19 +967,6 @@
               <item name="Biomedica" type="b2602c69:ProjectViewProjectNode" />
               <item name="Biomedica" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Vista" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Biomedica" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Biomedica" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Vista" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="libPdf" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Biomedica" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Biomedica" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Vista" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="libPdf" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="pdf" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -255,12 +1025,13 @@
       <workItem from="1511883032434" duration="5407000" />
       <workItem from="1511890316249" duration="6530000" />
       <workItem from="1512089635670" duration="3997000" />
-      <workItem from="1512134081342" duration="4452000" />
+      <workItem from="1512134081342" duration="5046000" />
+      <workItem from="1512182146865" duration="9068000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47824000" />
+    <option name="totallyTimeSpent" value="57486000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -304,74 +1075,37 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Modelo/Conexion.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="18" lean-forward="false" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vista/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3247">
-          <caret line="191" column="22" lean-forward="false" selection-start-line="191" selection-start-column="22" selection-end-line="191" selection-end-column="22" />
-          <folding>
-            <element signature="e#6791#7953#0#PHP" expanded="false" />
-            <marker date="1512091484273" expanded="true" signature="117:213" ph="SELECT ID_Pr... tblProducto" />
-            <marker date="1512091484273" expanded="true" signature="12455:14626" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="12518:12531" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="12518:12544" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="12545:14591" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="12616:12629" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="12753:14552" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="12855:12896" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="12994:13035" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="12994:13176" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="13222:13850" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="13298:13450" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="14027:14509" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="14102:14462" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controlador/InicioSesion.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" column="55" lean-forward="false" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
-          <folding>
-            <marker date="1512138440275" expanded="true" signature="626:690" ph="SELECT * FRO... tblEmpleado" />
-            <marker date="1512138440275" expanded="true" signature="1727:1789" ph="SELECT * FRO... tblCliente" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Vista/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3774">
           <caret line="222" column="72" lean-forward="false" selection-start-line="222" selection-start-column="57" selection-end-line="222" selection-end-column="72" />
           <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#6791#7953#0#PHP" expanded="false" />
-            <marker date="1512091484273" expanded="true" signature="117:213" ph="SELECT ID_Pr... tblProducto" />
-            <marker date="1512091484273" expanded="true" signature="12455:14626" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="12518:12531" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="12518:12544" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="12545:14591" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="12616:12629" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="12753:14552" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="12855:12896" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="12994:13035" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="12994:13176" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="13222:13850" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="13298:13450" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="14027:14509" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="14102:14462" ph="..." />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1512191281248" expanded="true" signature="117:213" ph="SELECT ID_Pr... tblProducto" />
+            <marker date="1512191281248" expanded="true" signature="12455:15047" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="12518:12531" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="12518:12544" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="12545:15012" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="12616:12629" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="12753:14973" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="12855:12896" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="12994:13035" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="12994:13176" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="13222:14137" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="13222:14271" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="13298:13450" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="13668:14037" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="14448:14930" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="14523:14883" ph="..." />
           </folding>
         </state>
       </provider>
@@ -381,8 +1115,25 @@
         <state relative-caret-position="1462">
           <caret line="86" column="35" lean-forward="false" selection-start-line="86" selection-start-column="35" selection-end-line="86" selection-end-column="35" />
           <folding>
-            <marker date="1512138927323" expanded="true" signature="5092:5197" ph="SELECT NOM_P... tblProducto" />
-            <marker date="1512138927323" expanded="true" signature="6736:6992" ph="..." />
+            <marker date="1512190255986" expanded="true" signature="426:3981" ph="..." />
+            <marker date="1512190255986" expanded="true" signature="434:946" ph="..." />
+            <marker date="1512190255986" expanded="true" signature="955:3981" ph="..." />
+            <marker date="1512190255986" expanded="true" signature="1611:3006" ph="..." />
+            <marker date="1512190255986" expanded="true" signature="3032:3981" ph="..." />
+            <marker date="1512190255986" expanded="true" signature="3132:3981" ph="..." />
+            <marker date="1512190255986" expanded="true" signature="3179:3981" ph="..." />
+            <marker date="1512190255986" expanded="true" signature="3219:3981" ph="..." />
+            <marker date="1512190255986" expanded="true" signature="3262:3379" ph="..." />
+            <marker date="1512190255986" expanded="true" signature="3420:3981" ph="..." />
+            <marker date="1512190255986" expanded="true" signature="3474:3981" ph="..." />
+            <marker date="1512190255986" expanded="true" signature="3591:3917" ph="..." />
+            <marker date="1512190255986" expanded="true" signature="3620:3884" ph="..." />
+            <marker date="1512190255986" expanded="true" signature="3949:3981" ph="..." />
+            <marker date="1512190255986" expanded="true" signature="4964:5069" ph="SELECT NOM_P... tblProducto" />
+            <marker date="1512190255986" expanded="true" signature="6573:6897" ph="..." />
+            <marker date="1512190255986" expanded="true" signature="7176:7511" ph="..." />
+            <marker date="1512190255986" expanded="true" signature="7639:8210" ph="..." />
+            <marker date="1512190255986" expanded="true" signature="8043:8187" ph="..." />
           </folding>
         </state>
       </provider>
@@ -392,12 +1143,17 @@
         <state relative-caret-position="731">
           <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
           <folding>
-            <marker date="1512093058925" expanded="true" signature="1005:1126" ph="INSERT INTO tlbFactura... " />
-            <marker date="1512093058925" expanded="true" signature="1005:1141" ph="INSERT INTO tlbFactura... " />
-            <marker date="1512093058925" expanded="true" signature="1005:1154" ph="INSERT INTO tlbFactura... " />
-            <marker date="1512093058925" expanded="true" signature="1327:1437" ph="INSERT INTO tblDETALLE_FACTURA... " />
-            <marker date="1512093058925" expanded="true" signature="1327:1460" ph="INSERT INTO tblDETALLE_FACTURA... " />
-            <marker date="1512093058925" expanded="true" signature="1490:1608" ph="UPDATE tblPr... " />
+            <marker date="1512190256070" expanded="true" signature="945:1066" ph="INSERT INTO tlbFactura... " />
+            <marker date="1512190256070" expanded="true" signature="945:1081" ph="INSERT INTO tlbFactura... " />
+            <marker date="1512190256070" expanded="true" signature="945:1094" ph="INSERT INTO tlbFactura... " />
+            <marker date="1512190256070" expanded="true" signature="1267:1377" ph="INSERT INTO tblDETALLE_FACTURA... " />
+            <marker date="1512190256070" expanded="true" signature="1267:1400" ph="INSERT INTO tblDETALLE_FACTURA... " />
+            <marker date="1512190256070" expanded="true" signature="1430:1548" ph="UPDATE tblPr... " />
+            <marker date="1512190256070" expanded="true" signature="2442:2763" ph="..." />
+            <marker date="1512190256070" expanded="true" signature="2475:2763" ph="..." />
+            <marker date="1512190256070" expanded="true" signature="2525:2763" ph="..." />
+            <marker date="1512190256070" expanded="true" signature="2541:2761" ph="..." />
+            <marker date="1512190256070" expanded="true" signature="2556:2744" ph="..." />
           </folding>
         </state>
       </provider>
@@ -407,21 +1163,27 @@
         <state relative-caret-position="3774">
           <caret line="222" column="72" lean-forward="false" selection-start-line="222" selection-start-column="57" selection-end-line="222" selection-end-column="72" />
           <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#6791#7953#0#PHP" expanded="false" />
-            <marker date="1512091484273" expanded="true" signature="117:213" ph="SELECT ID_Pr... tblProducto" />
-            <marker date="1512091484273" expanded="true" signature="12455:14626" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="12518:12531" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="12518:12544" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="12545:14591" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="12616:12629" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="12753:14552" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="12855:12896" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="12994:13035" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="12994:13176" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="13222:13850" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="13298:13450" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="14027:14509" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="14102:14462" ph="..." />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1512191281248" expanded="true" signature="117:213" ph="SELECT ID_Pr... tblProducto" />
+            <marker date="1512191281248" expanded="true" signature="12455:15047" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="12518:12531" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="12518:12544" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="12545:15012" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="12616:12629" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="12753:14973" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="12855:12896" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="12994:13035" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="12994:13176" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="13222:14137" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="13222:14271" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="13298:13450" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="13668:14037" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="14448:14930" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="14523:14883" ph="..." />
           </folding>
         </state>
       </provider>
@@ -431,8 +1193,25 @@
         <state relative-caret-position="1462">
           <caret line="86" column="35" lean-forward="false" selection-start-line="86" selection-start-column="35" selection-end-line="86" selection-end-column="35" />
           <folding>
-            <marker date="1512138927323" expanded="true" signature="5092:5197" ph="SELECT NOM_P... tblProducto" />
-            <marker date="1512138927323" expanded="true" signature="6736:6992" ph="..." />
+            <marker date="1512190255986" expanded="true" signature="426:3981" ph="..." />
+            <marker date="1512190255986" expanded="true" signature="434:946" ph="..." />
+            <marker date="1512190255986" expanded="true" signature="955:3981" ph="..." />
+            <marker date="1512190255986" expanded="true" signature="1611:3006" ph="..." />
+            <marker date="1512190255986" expanded="true" signature="3032:3981" ph="..." />
+            <marker date="1512190255986" expanded="true" signature="3132:3981" ph="..." />
+            <marker date="1512190255986" expanded="true" signature="3179:3981" ph="..." />
+            <marker date="1512190255986" expanded="true" signature="3219:3981" ph="..." />
+            <marker date="1512190255986" expanded="true" signature="3262:3379" ph="..." />
+            <marker date="1512190255986" expanded="true" signature="3420:3981" ph="..." />
+            <marker date="1512190255986" expanded="true" signature="3474:3981" ph="..." />
+            <marker date="1512190255986" expanded="true" signature="3591:3917" ph="..." />
+            <marker date="1512190255986" expanded="true" signature="3620:3884" ph="..." />
+            <marker date="1512190255986" expanded="true" signature="3949:3981" ph="..." />
+            <marker date="1512190255986" expanded="true" signature="4964:5069" ph="SELECT NOM_P... tblProducto" />
+            <marker date="1512190255986" expanded="true" signature="6573:6897" ph="..." />
+            <marker date="1512190255986" expanded="true" signature="7176:7511" ph="..." />
+            <marker date="1512190255986" expanded="true" signature="7639:8210" ph="..." />
+            <marker date="1512190255986" expanded="true" signature="8043:8187" ph="..." />
           </folding>
         </state>
       </provider>
@@ -442,12 +1221,17 @@
         <state relative-caret-position="731">
           <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
           <folding>
-            <marker date="1512093058925" expanded="true" signature="1005:1126" ph="INSERT INTO tlbFactura... " />
-            <marker date="1512093058925" expanded="true" signature="1005:1141" ph="INSERT INTO tlbFactura... " />
-            <marker date="1512093058925" expanded="true" signature="1005:1154" ph="INSERT INTO tlbFactura... " />
-            <marker date="1512093058925" expanded="true" signature="1327:1437" ph="INSERT INTO tblDETALLE_FACTURA... " />
-            <marker date="1512093058925" expanded="true" signature="1327:1460" ph="INSERT INTO tblDETALLE_FACTURA... " />
-            <marker date="1512093058925" expanded="true" signature="1490:1608" ph="UPDATE tblPr... " />
+            <marker date="1512190256070" expanded="true" signature="945:1066" ph="INSERT INTO tlbFactura... " />
+            <marker date="1512190256070" expanded="true" signature="945:1081" ph="INSERT INTO tlbFactura... " />
+            <marker date="1512190256070" expanded="true" signature="945:1094" ph="INSERT INTO tlbFactura... " />
+            <marker date="1512190256070" expanded="true" signature="1267:1377" ph="INSERT INTO tblDETALLE_FACTURA... " />
+            <marker date="1512190256070" expanded="true" signature="1267:1400" ph="INSERT INTO tblDETALLE_FACTURA... " />
+            <marker date="1512190256070" expanded="true" signature="1430:1548" ph="UPDATE tblPr... " />
+            <marker date="1512190256070" expanded="true" signature="2442:2763" ph="..." />
+            <marker date="1512190256070" expanded="true" signature="2475:2763" ph="..." />
+            <marker date="1512190256070" expanded="true" signature="2525:2763" ph="..." />
+            <marker date="1512190256070" expanded="true" signature="2541:2761" ph="..." />
+            <marker date="1512190256070" expanded="true" signature="2556:2744" ph="..." />
           </folding>
         </state>
       </provider>
@@ -457,21 +1241,27 @@
         <state relative-caret-position="3774">
           <caret line="222" column="72" lean-forward="false" selection-start-line="222" selection-start-column="57" selection-end-line="222" selection-end-column="72" />
           <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#6791#7953#0#PHP" expanded="false" />
-            <marker date="1512091484273" expanded="true" signature="117:213" ph="SELECT ID_Pr... tblProducto" />
-            <marker date="1512091484273" expanded="true" signature="12455:14626" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="12518:12531" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="12518:12544" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="12545:14591" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="12616:12629" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="12753:14552" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="12855:12896" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="12994:13035" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="12994:13176" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="13222:13850" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="13298:13450" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="14027:14509" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="14102:14462" ph="..." />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1512191281248" expanded="true" signature="117:213" ph="SELECT ID_Pr... tblProducto" />
+            <marker date="1512191281248" expanded="true" signature="12455:15047" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="12518:12531" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="12518:12544" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="12545:15012" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="12616:12629" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="12753:14973" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="12855:12896" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="12994:13035" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="12994:13176" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="13222:14137" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="13222:14271" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="13298:13450" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="13668:14037" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="14448:14930" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="14523:14883" ph="..." />
           </folding>
         </state>
       </provider>
@@ -481,8 +1271,25 @@
         <state relative-caret-position="1462">
           <caret line="86" column="35" lean-forward="false" selection-start-line="86" selection-start-column="35" selection-end-line="86" selection-end-column="35" />
           <folding>
-            <marker date="1512138927323" expanded="true" signature="5092:5197" ph="SELECT NOM_P... tblProducto" />
-            <marker date="1512138927323" expanded="true" signature="6736:6992" ph="..." />
+            <marker date="1512190255986" expanded="true" signature="426:3981" ph="..." />
+            <marker date="1512190255986" expanded="true" signature="434:946" ph="..." />
+            <marker date="1512190255986" expanded="true" signature="955:3981" ph="..." />
+            <marker date="1512190255986" expanded="true" signature="1611:3006" ph="..." />
+            <marker date="1512190255986" expanded="true" signature="3032:3981" ph="..." />
+            <marker date="1512190255986" expanded="true" signature="3132:3981" ph="..." />
+            <marker date="1512190255986" expanded="true" signature="3179:3981" ph="..." />
+            <marker date="1512190255986" expanded="true" signature="3219:3981" ph="..." />
+            <marker date="1512190255986" expanded="true" signature="3262:3379" ph="..." />
+            <marker date="1512190255986" expanded="true" signature="3420:3981" ph="..." />
+            <marker date="1512190255986" expanded="true" signature="3474:3981" ph="..." />
+            <marker date="1512190255986" expanded="true" signature="3591:3917" ph="..." />
+            <marker date="1512190255986" expanded="true" signature="3620:3884" ph="..." />
+            <marker date="1512190255986" expanded="true" signature="3949:3981" ph="..." />
+            <marker date="1512190255986" expanded="true" signature="4964:5069" ph="SELECT NOM_P... tblProducto" />
+            <marker date="1512190255986" expanded="true" signature="6573:6897" ph="..." />
+            <marker date="1512190255986" expanded="true" signature="7176:7511" ph="..." />
+            <marker date="1512190255986" expanded="true" signature="7639:8210" ph="..." />
+            <marker date="1512190255986" expanded="true" signature="8043:8187" ph="..." />
           </folding>
         </state>
       </provider>
@@ -492,12 +1299,17 @@
         <state relative-caret-position="731">
           <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
           <folding>
-            <marker date="1512093058925" expanded="true" signature="1005:1126" ph="INSERT INTO tlbFactura... " />
-            <marker date="1512093058925" expanded="true" signature="1005:1141" ph="INSERT INTO tlbFactura... " />
-            <marker date="1512093058925" expanded="true" signature="1005:1154" ph="INSERT INTO tlbFactura... " />
-            <marker date="1512093058925" expanded="true" signature="1327:1437" ph="INSERT INTO tblDETALLE_FACTURA... " />
-            <marker date="1512093058925" expanded="true" signature="1327:1460" ph="INSERT INTO tblDETALLE_FACTURA... " />
-            <marker date="1512093058925" expanded="true" signature="1490:1608" ph="UPDATE tblPr... " />
+            <marker date="1512190256070" expanded="true" signature="945:1066" ph="INSERT INTO tlbFactura... " />
+            <marker date="1512190256070" expanded="true" signature="945:1081" ph="INSERT INTO tlbFactura... " />
+            <marker date="1512190256070" expanded="true" signature="945:1094" ph="INSERT INTO tlbFactura... " />
+            <marker date="1512190256070" expanded="true" signature="1267:1377" ph="INSERT INTO tblDETALLE_FACTURA... " />
+            <marker date="1512190256070" expanded="true" signature="1267:1400" ph="INSERT INTO tblDETALLE_FACTURA... " />
+            <marker date="1512190256070" expanded="true" signature="1430:1548" ph="UPDATE tblPr... " />
+            <marker date="1512190256070" expanded="true" signature="2442:2763" ph="..." />
+            <marker date="1512190256070" expanded="true" signature="2475:2763" ph="..." />
+            <marker date="1512190256070" expanded="true" signature="2525:2763" ph="..." />
+            <marker date="1512190256070" expanded="true" signature="2541:2761" ph="..." />
+            <marker date="1512190256070" expanded="true" signature="2556:2744" ph="..." />
           </folding>
         </state>
       </provider>
@@ -543,21 +1355,27 @@
         <state relative-caret-position="3774">
           <caret line="222" column="75" lean-forward="true" selection-start-line="222" selection-start-column="75" selection-end-line="222" selection-end-column="75" />
           <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#6791#7953#0#PHP" expanded="false" />
-            <marker date="1512091484273" expanded="true" signature="117:213" ph="SELECT ID_Pr... tblProducto" />
-            <marker date="1512091484273" expanded="true" signature="12455:14626" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="12518:12531" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="12518:12544" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="12545:14591" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="12616:12629" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="12753:14552" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="12855:12896" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="12994:13035" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="12994:13176" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="13222:13850" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="13298:13450" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="14027:14509" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="14102:14462" ph="..." />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1512191281248" expanded="true" signature="117:213" ph="SELECT ID_Pr... tblProducto" />
+            <marker date="1512191281248" expanded="true" signature="12455:15047" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="12518:12531" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="12518:12544" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="12545:15012" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="12616:12629" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="12753:14973" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="12855:12896" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="12994:13035" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="12994:13176" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="13222:14137" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="13222:14271" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="13298:13450" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="13668:14037" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="14448:14930" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="14523:14883" ph="..." />
           </folding>
         </state>
       </provider>
@@ -616,21 +1434,27 @@
         <state relative-caret-position="1717">
           <caret line="101" column="84" lean-forward="false" selection-start-line="101" selection-start-column="84" selection-end-line="101" selection-end-column="84" />
           <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#6791#7953#0#PHP" expanded="false" />
-            <marker date="1512091484273" expanded="true" signature="117:213" ph="SELECT ID_Pr... tblProducto" />
-            <marker date="1512091484273" expanded="true" signature="12455:14626" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="12518:12531" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="12518:12544" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="12545:14591" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="12616:12629" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="12753:14552" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="12855:12896" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="12994:13035" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="12994:13176" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="13222:13850" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="13298:13450" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="14027:14509" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="14102:14462" ph="..." />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1512191281248" expanded="true" signature="117:213" ph="SELECT ID_Pr... tblProducto" />
+            <marker date="1512191281248" expanded="true" signature="12455:15047" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="12518:12531" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="12518:12544" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="12545:15012" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="12616:12629" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="12753:14973" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="12855:12896" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="12994:13035" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="12994:13176" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="13222:14137" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="13222:14271" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="13298:13450" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="13668:14037" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="14448:14930" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="14523:14883" ph="..." />
           </folding>
         </state>
       </provider>
@@ -819,58 +1643,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Vista/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="228" column="27" lean-forward="false" selection-start-line="228" selection-start-column="27" selection-end-line="228" selection-end-column="27" />
-          <folding>
-            <element signature="e#6791#7953#0#PHP" expanded="false" />
-            <marker date="1512091484273" expanded="true" signature="117:213" ph="SELECT ID_Pr... tblProducto" />
-            <marker date="1512091484273" expanded="true" signature="12455:14626" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="12518:12531" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="12518:12544" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="12545:14591" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="12616:12629" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="12753:14552" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="12855:12896" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="12994:13035" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="12994:13176" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="13222:13850" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="13298:13450" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="14027:14509" ph="..." />
-            <marker date="1512091484273" expanded="true" signature="14102:14462" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Vista/libPdf/lib/mpdf.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-603">
           <caret line="1372" column="23" lean-forward="false" selection-start-line="1372" selection-start-column="23" selection-end-line="1372" selection-end-column="23" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vista/libPdf/pdf/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="91" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controlador/FacturarCompraC.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="38" lean-forward="false" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
-          <folding>
-            <marker date="1512093058925" expanded="true" signature="1005:1126" ph="INSERT INTO tlbFactura... " />
-            <marker date="1512093058925" expanded="true" signature="1005:1141" ph="INSERT INTO tlbFactura... " />
-            <marker date="1512093058925" expanded="true" signature="1005:1154" ph="INSERT INTO tlbFactura... " />
-            <marker date="1512093058925" expanded="true" signature="1327:1437" ph="INSERT INTO tblDETALLE_FACTURA... " />
-            <marker date="1512093058925" expanded="true" signature="1327:1460" ph="INSERT INTO tblDETALLE_FACTURA... " />
-            <marker date="1512093058925" expanded="true" signature="1490:1608" ph="UPDATE tblPr... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -885,43 +1662,131 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Vista/Cotizacion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="94" column="43" lean-forward="false" selection-start-line="94" selection-start-column="43" selection-end-line="94" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vista/libPdf/pdf/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Vista/libPdf/pdf/reportes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="97" column="25" lean-forward="false" selection-start-line="97" selection-start-column="25" selection-end-line="97" selection-end-column="25" />
+        <state relative-caret-position="102">
+          <caret line="96" column="35" lean-forward="false" selection-start-line="96" selection-start-column="30" selection-end-line="96" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vista/libPdf/pdf/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="13" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="27" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../pdf/pdf/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="70" column="37" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="70" selection-end-column="37" />
           <folding>
-            <marker date="1512137966066" expanded="false" signature="49:3281" ph="..." />
-            <marker date="1512137966066" expanded="true" signature="58:191" ph="..." />
-            <marker date="1512137966066" expanded="true" signature="200:3273" ph="..." />
-            <marker date="1512137966066" expanded="true" signature="232:1036" ph="..." />
-            <marker date="1512137966066" expanded="true" signature="256:300" ph="..." />
-            <marker date="1512137966066" expanded="true" signature="375:593" ph="..." />
-            <marker date="1512137966066" expanded="true" signature="620:1022" ph="..." />
-            <marker date="1512137966066" expanded="true" signature="1047:3151" ph="..." />
-            <marker date="1512137966066" expanded="true" signature="1061:2964" ph="..." />
-            <marker date="1512137966066" expanded="true" signature="1077:1299" ph="..." />
-            <marker date="1512137966066" expanded="true" signature="1092:1282" ph="..." />
-            <marker date="1512137966066" expanded="true" signature="1315:2949" ph="..." />
-            <marker date="1512137966066" expanded="true" signature="1330:1644" ph="..." />
-            <marker date="1512137966066" expanded="true" signature="1659:1943" ph="..." />
-            <marker date="1512137966066" expanded="true" signature="1958:2222" ph="..." />
-            <marker date="1512137966066" expanded="true" signature="2237:2536" ph="..." />
-            <marker date="1512137966066" expanded="true" signature="2551:2658" ph="..." />
-            <marker date="1512137966066" expanded="true" signature="2673:2779" ph="..." />
-            <marker date="1512137966066" expanded="true" signature="2794:2932" ph="..." />
-            <marker date="1512137966066" expanded="true" signature="2991:3139" ph="..." />
-            <marker date="1512137966066" expanded="true" signature="3164:3263" ph="..." />
+            <marker date="1484069572000" expanded="true" signature="61:100" ph="SELECT * FRO... usuarios" />
+            <marker date="1484069572000" expanded="true" signature="623:1020" ph="..." />
+            <marker date="1484069572000" expanded="true" signature="656:1020" ph="..." />
+            <marker date="1484069572000" expanded="false" signature="682:700" ph="..." />
+            <marker date="1484069572000" expanded="true" signature="782:1020" ph="..." />
+            <marker date="1484069572000" expanded="true" signature="798:1018" ph="..." />
+            <marker date="1484069572000" expanded="true" signature="813:1001" ph="..." />
+            <marker date="1484069572000" expanded="true" signature="1530:1720" ph="..." />
+            <marker date="1484069572000" expanded="false" signature="1571:1589" ph="..." />
+            <marker date="1484069572000" expanded="true" signature="1590:1705" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controlador/FacturarCompraC.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="40" column="97" lean-forward="false" selection-start-line="40" selection-start-column="97" selection-end-line="40" selection-end-column="97" />
+          <folding>
+            <marker date="1512190256070" expanded="true" signature="945:1066" ph="INSERT INTO tlbFactura... " />
+            <marker date="1512190256070" expanded="true" signature="945:1081" ph="INSERT INTO tlbFactura... " />
+            <marker date="1512190256070" expanded="true" signature="945:1094" ph="INSERT INTO tlbFactura... " />
+            <marker date="1512190256070" expanded="true" signature="1267:1377" ph="INSERT INTO tblDETALLE_FACTURA... " />
+            <marker date="1512190256070" expanded="true" signature="1267:1400" ph="INSERT INTO tblDETALLE_FACTURA... " />
+            <marker date="1512190256070" expanded="true" signature="1430:1548" ph="UPDATE tblPr... " />
+            <marker date="1512190256070" expanded="true" signature="2442:2763" ph="..." />
+            <marker date="1512190256070" expanded="true" signature="2475:2763" ph="..." />
+            <marker date="1512190256070" expanded="true" signature="2525:2763" ph="..." />
+            <marker date="1512190256070" expanded="true" signature="2541:2761" ph="..." />
+            <marker date="1512190256070" expanded="true" signature="2556:2744" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Vista/FacturarCompra.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-207">
-          <caret line="110" column="107" lean-forward="false" selection-start-line="110" selection-start-column="107" selection-end-line="110" selection-end-column="107" />
+        <state relative-caret-position="1048">
+          <caret line="135" column="91" lean-forward="false" selection-start-line="135" selection-start-column="91" selection-end-line="135" selection-end-column="91" />
           <folding>
-            <marker date="1512138927323" expanded="true" signature="5092:5197" ph="SELECT NOM_P... tblProducto" />
-            <marker date="1512138927323" expanded="true" signature="6736:6992" ph="..." />
+            <marker date="1512190255986" expanded="true" signature="426:3981" ph="..." />
+            <marker date="1512190255986" expanded="true" signature="434:946" ph="..." />
+            <marker date="1512190255986" expanded="true" signature="955:3981" ph="..." />
+            <marker date="1512190255986" expanded="true" signature="1611:3006" ph="..." />
+            <marker date="1512190255986" expanded="true" signature="3032:3981" ph="..." />
+            <marker date="1512190255986" expanded="true" signature="3132:3981" ph="..." />
+            <marker date="1512190255986" expanded="true" signature="3179:3981" ph="..." />
+            <marker date="1512190255986" expanded="true" signature="3219:3981" ph="..." />
+            <marker date="1512190255986" expanded="true" signature="3262:3379" ph="..." />
+            <marker date="1512190255986" expanded="true" signature="3420:3981" ph="..." />
+            <marker date="1512190255986" expanded="true" signature="3474:3981" ph="..." />
+            <marker date="1512190255986" expanded="true" signature="3591:3917" ph="..." />
+            <marker date="1512190255986" expanded="true" signature="3620:3884" ph="..." />
+            <marker date="1512190255986" expanded="true" signature="3949:3981" ph="..." />
+            <marker date="1512190255986" expanded="true" signature="4964:5069" ph="SELECT NOM_P... tblProducto" />
+            <marker date="1512190255986" expanded="true" signature="6573:6897" ph="..." />
+            <marker date="1512190255986" expanded="true" signature="7176:7511" ph="..." />
+            <marker date="1512190255986" expanded="true" signature="7639:8210" ph="..." />
+            <marker date="1512190255986" expanded="true" signature="8043:8187" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vista/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="251" column="158" lean-forward="false" selection-start-line="251" selection-start-column="158" selection-end-line="251" selection-end-column="158" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#6791#7953#0#PHP" expanded="false" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1512191281248" expanded="true" signature="117:213" ph="SELECT ID_Pr... tblProducto" />
+            <marker date="1512191281248" expanded="true" signature="12455:15047" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="12518:12531" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="12518:12544" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="12545:15012" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="12616:12629" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="12753:14973" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="12855:12896" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="12994:13035" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="12994:13176" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="13222:14137" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="13222:14271" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="13298:13450" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="13668:14037" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="14448:14930" ph="..." />
+            <marker date="1512191281248" expanded="true" signature="14523:14883" ph="..." />
           </folding>
         </state>
       </provider>

@@ -10,11 +10,8 @@ session_start();
 include('../Modelo/Conexion.php');
 $con = new Conexion();
 
-if (@!$_SESSION['cliente']){
-    header("Location: ../Vista/Errores/SinPermiso.php");
-}
 
-if (isset($_SESSION['idcliente'])) {
+if (isset($_SESSION['idcliente']) && isset($_POST['comprar'])) {
     $idcliente = $_SESSION['idcliente'];
     $fecha = $_POST['fecha'];
     $total = $_POST['total'];
@@ -41,6 +38,48 @@ if (isset($_SESSION['idcliente'])) {
         echo ($cantidadBodega[$i]-$cantidadQuer[$i]);
     }
     header("Location: ../Vista/Mensages/CompraFinalisada.php");
+    /** EN caso de oprimir el boton generar pdf hará lo siguiente, esta parte aun esta en pruebas */
+}elseif (isset($_SESSION['idcliente']) && isset($_POST['generarPDF'])){
+    require_once('../Vista/tcpdf/tcpdf.php');
+    $pdf = new TCPDF('P', 'mm', 'A4', true, 'UTF-8', false);
+
+    $pdf->SetCreator(PDF_CREATOR);
+    $pdf->SetAuthor('INBIOSER');
+    $pdf->SetTitle('cotizacion');
+
+    $pdf->setPrintHeader(false);
+    $pdf->setPrintFooter(false);
+    $pdf->SetMargins(20, 20, 20, false);
+    $pdf->SetAutoPageBreak(true, 20);
+    $pdf->SetFont('Helvetica', '', 10);
+    $pdf->addPage();
+
+    $content = '';
+
+    $content .= '
+		<div class="row">
+        	<div class="col-md-12">
+       	
+      <table border="1" cellpadding="5">
+        <thead>
+          <tr>
+            <th>DNI</th>
+            <th>A. PATERNO</th>
+            <th>A. MATERNO</th>
+            <th>NOMBRES</th>
+            <th>AREA</th>
+            <th>SUELDO</th>
+          </tr>
+        </thead>
+	';
+
+
+
+    $pdf->writeHTML($content, true, 0, true, 0);
+
+    $pdf->lastPage();
+    $pdf->output('Reporte.pdf', 'I');
+
 }else{
     header("Location: ../Vista/Errores/SinPermiso.php");
 }
