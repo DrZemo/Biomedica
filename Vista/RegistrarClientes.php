@@ -108,7 +108,7 @@ session_start();
                 </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">
+                <a class="nav-link" href="Contactenos.php">
                     <i class="fa fa-compress" aria-hidden="true"></i>
                     Contactenos
                 </a>
@@ -212,7 +212,7 @@ session_start();
                         <div class="input-group-addon">
                             <i class="fa fa-user-circle-o" aria-hidden="true"></i>
                         </div>
-                        <input name="usuario" type="text" class="form-control" id="inlineFormInputGroup" placeholder="Nombre de cliente">
+                        <input name="usuario" type="text" class="form-control" id="inlineFormInputGroup" placeholder="Nombre de cliente" required>
                     </div>
                     <br>
                     <!--contraseña cliente-->
@@ -220,7 +220,7 @@ session_start();
                         <div class="input-group-addon">
                             <i class="fa fa-key" aria-hidden="true"></i>
                         </div>
-                        <input name="contraseña" type="password" class="form-control" id="inlineFormInputGroup" placeholder="contraseña">
+                        <input name="contraseña" type="password" class="form-control" id="inlineFormInputGroup" placeholder="contraseña" required>
                     </div>
                     <br>
                     <!--correo cliente-->
@@ -245,7 +245,7 @@ session_start();
                         <div class="input-group-addon">
                             <i class="fa fa-bullseye" aria-hidden="true"></i>
                         </div>
-                        <input name="targ" type="text" class="form-control" id="inlineFormInputGroup" placeholder="targeta de credito">
+                        <input name="targ" type="number" class="form-control" id="inlineFormInputGroup" placeholder="targeta de credito">
                     </div>
                     <br>
                 </div>

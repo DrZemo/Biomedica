@@ -1,22 +1,16 @@
-<!DOCTYPE html>
 <?php
-session_start();
-include ('../Modelo/Conexion.php');
-$conection = new Conexion();
-$consulta = "SELECT ID_Producto,NOM_Producto,PRE_Producto,DCN_Producto,IMG_Producto,Cantidad FROM tblProducto";
-?>
-<!---
 /**
  * Created by PhpStorm.
- * User: camilo mejia monsalve 
- * Date: 22/12/2017
- * Time: 22:03
- */--->
+ * User: CAMILO MEJIA MONSALVE
+ * Date: 04/12/2017
+ * Time: 22:05
+ */
+?>
 <html lang="en">
 
 <head>
     <title>INBIOSER</title>
-    <!---<link rel="shortcut icon" href="../Vista/img/logo.png">-->
+    <link rel="shortcut icon" href="../Vista/img/logo.png">
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -48,9 +42,9 @@ $consulta = "SELECT ID_Producto,NOM_Producto,PRE_Producto,DCN_Producto,IMG_Produ
         <div class="carousel-item" style="height: 60vh;">
             <img class="d-block img-fluid" src="img/carousel/2.jpg" alt="Second slide">
         </div>
-        <!--<div class="carousel-item" style="height: 60vh;">
+        <div class="carousel-item" style="height: 60vh;">
             <img class="d-block img-fluid" src="img/carousel/3.jpg" alt="Third slide">
-        </div>-->
+        </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -76,7 +70,7 @@ $consulta = "SELECT ID_Producto,NOM_Producto,PRE_Producto,DCN_Producto,IMG_Produ
     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav mr-auto mt-2 mt-md-0">
             <li class="nav-item " >
-                <a class="nav-link" href="index.php" >
+                <a class="nav-link" href="#" >
                     <i class="fa fa-home" aria-hidden="true"></i>
                     Inicio
                 </a>
@@ -84,7 +78,7 @@ $consulta = "SELECT ID_Producto,NOM_Producto,PRE_Producto,DCN_Producto,IMG_Produ
             <li class="nav-item dropdown active">
                 <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <i class="fa fa-book" aria-hidden="true"></i>
-                    Registrar
+                    Registro
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                     <a class="dropdown-item text-center" href="RegistrarEmpleados.php"><i class="fa fa-user" aria-hidden="true"></i>
@@ -110,7 +104,7 @@ $consulta = "SELECT ID_Producto,NOM_Producto,PRE_Producto,DCN_Producto,IMG_Produ
                 </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="Contactenos.php">
+                <a class="nav-link" href="#">
                     <i class="fa fa-compress" aria-hidden="true"></i>
                     Contactenos
                 </a>
@@ -122,13 +116,6 @@ $consulta = "SELECT ID_Producto,NOM_Producto,PRE_Producto,DCN_Producto,IMG_Produ
             <button class="btn btn-outline-info mx-2 my-2 my-sm-0" type="submit">
                 <i class="fa fa-search" aria-hidden="true"></i>
                 Consulta</button>
-            <!--
-            esta condición revisa que la sesión está iniciada por cliente o por usuario,
-             de manera que si está iniciada mostrará el drop dow list con el nombre del
-              cliente y la opción de cerrar sesión, de lo contrario mostrará el botón e iniciar sesión,
-               el cual activa el modal que esta escrito después de toda la etiqueta nav para que se ingresen
-                los campos de documento y contraseña
-                -->
             <?php if(isset($_SESSION['empleado'])||isset($_SESSION['cliente'])){
                 ?>
 
@@ -147,7 +134,7 @@ $consulta = "SELECT ID_Producto,NOM_Producto,PRE_Producto,DCN_Producto,IMG_Produ
                 ?>
                 <button type="button" class="btn btn-outline-success my-2 my-sm-0" data-toggle="modal" data-target="#myModal">
                     <i class="fa fa-sign-in" aria-hidden="true"></i>
-                    Iniciar Sesíon
+                    Iniciar sesion
                 </button>
                 <?php
             }
@@ -198,91 +185,56 @@ $consulta = "SELECT ID_Producto,NOM_Producto,PRE_Producto,DCN_Producto,IMG_Produ
     </div>
 </div>
 
-<!-- Productos. -->
+<!-- Registro clientes. -->
 <div class="container">
-    <div class="mt-5 mb-5" style="width: " role="document">
-        <div class="modal-content">
-            <form action="FacturarCompra.php" method="post">
+    <form action="../Controlador/ContactenosC.php" method="post">
+        <div class="mt-5 mb-5" role="document">
+            <div class="modal-content">
                 <div class="modal-header">
-                    <h1>Productos</h1>
+                    <h1>Contactenos</h1>
+                    <i class="fa fa-connectdevelop fa-5x" aria-hidden="true"></i>
                 </div>
-                <div class="modal-body row">
-                    <!-- este formulario se envía al archivo php facturar compra,
-                     pero antes de eso, se consulta en la base de datos los productos
-                      registrados con los campos a mostrar en la página web, en caso de que la
-                       conexión no sea exitosa, el programa redireccionará al cliente a una página que
-                        le mostrara un error de conexión con la base de datos, en este momento solo le menciona el error,
-                         mas no le muestra exhaustivamente cuál es. . -->
-                    <?php
-                    $resultado = mysqli_query($conection->conectarMysql(),$consulta);
-                    if ($conection->conectarMysql() == false){
-                        header("Location: ../Vista/Errores/FalloConexionDB.php");
-                    }else{
-                        /*
-                         *  si la conexión es exitosa el programa procederá a crear un arreglo con los datos de la consulta,
-                         *  a este arreglo le llamaremos $row y con un bucle while lo recorremos para mostrar imprimir la
-                         *  información en pantalla.
-                         * aquí también creamos una etiqueta input de tipo checkbox que tendrá como nombre “productos[ ]”y tendrá
-                         * los corchetes para indicar al formulario de destino que va a recibir un arreglo,
-                         * el valor de esta etiqueta input es el id del producto, de esta forma sabemos sacar
-                         * el precio a los productos seleccionados, en caso tal de que el cliente no seleccione
-                         * productos éste será redirigido a una ventana informativa que le indica que debe seleccionar productos.
-                         * */
-                        $n = 0;
-                        while($row = mysqli_fetch_array($resultado)){
-                            $ruta_img = $row['IMG_Producto'];
-                            echo
-                                '
-                            <div class="col-sm-4 col-xs-2">
-                                <div class="card m-2" style="width: 20rem;height: 90vh;">
-                                    <img class="card-img-top" style="height: 40vh;" src="../Controlador/fotos/'.$ruta_img.'" alt="Card image cap">
-                                    <div class="card-block">
-                                        <hr class="my-0">
-                                        <p>
-                                        <h4 class="card-title">'.$row['NOM_Producto'].'</h4>
-                                        <br>
-                                        <p><strong>Modelo:</strong> '.$row['DCN_Producto'].'</p>
-                                        <br>
-                                        <div class="input-group mb-2 mr-sm-2 mb-sm-0">
-                                            <div class="input-group-addon">
-                                                <i class="fa fa-money fa-2x" aria-hidden="true"></i>
-                                            </div>
-                                            <input type="text" value="'.number_format($row['PRE_Producto']).'" class="form-control" id="inlineFormInputGroup" readonly>
-                                            <!-- este arreglo de cantidades queridas por el usuario tiene un problema,
-                                            acumula todas las cantidades existentes en un arreglo y lo envia al formulario FacturarCompra,
-                                            de esta manera cuando el formulario recorra el arreglo no sabre distinguir que cantidad hace parte de que articulo--->
-                                            <input name="cantidadQuerida[]" type="number" value="'.$row['Cantidad'].'" min="0" max="10" class="form-control" id="inlineFormInputGroup" >
-                                        </div>
-                                        </p>    
-                                        <hr class="my-4">
-                                        <div class="form-check mb-1">
-                                          <label class="form-check-label">
-                                            <input type="checkbox" class="form-check-input" name="producto[]" value="'.$row['ID_Producto'].'">
-                                            <!--- indica los campos que hay que revisar del vector que tiene todas las cantidades---->
-                                            <input hidden type="number" class="form-check-input" name="indicador[]" value="'.$n.'">
-                                            <i class="fa fa-shopping-cart mr-2" aria-hidden="true"></i>
-                                            Añadir al carrito
-                                          </label>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            ';
-                            $n++;
-                        }
-                    }
-                    ?>
+                <div class="modal-body">
+                    <!--Nombre-->
+                    <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+                        <div class="input-group-addon">
+                            <i class="fa fa-user" aria-hidden="true"></i>
+                        </div>
+                        <input name="nombre" type="text" class="form-control" id="inlineFormInputGroup" placeholder="nombre" required>
+                    </div>
+                    <br>
+                    <!--telefono--->
+                    <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+                        <div class="input-group-addon">
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                        </div>
+                        <input name="telefono" type="tel" class="form-control" id="inlineFormInputGroup" placeholder="telefono" required>
+                    </div>
+                    <br>
+                    <!--correo cliente-->
+                    <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+                        <div class="input-group-addon">
+                            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                        </div>
+                        <input name="email" type="email" class="form-control" id="inlineFormInputGroup" placeholder="email" required>
+                    </div>
+                    <br>
+                    <!--Mensage-->
+                    <div class="form-group">
+                        <label for="exampleTextarea">Mensage</label>
+                        <textarea name="mensage" class="form-control" id="exampleTextarea" rows="3"></textarea>
+                    </div>
+                    <br>
                 </div>
                 <div class="modal-footer">
-
-                    <button type="submit" name="login" class="btn btn-info">
-                        <i class="fa fa-credit-card-alt mr-2" aria-hidden="true"></i>
-                        Facturar
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                        Enviar mensage
                     </button>
                 </div>
-            </form>
+            </div>
         </div>
-    </div>
+    </form>
 </div>
 
 </body>

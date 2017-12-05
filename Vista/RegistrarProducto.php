@@ -110,7 +110,7 @@ if (@!$_SESSION['empleado']){
                 </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">
+                <a class="nav-link" href="Contactenos.php">
                     <i class="fa fa-compress" aria-hidden="true"></i>
                     Contactenos
                 </a>

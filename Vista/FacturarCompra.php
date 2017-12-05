@@ -84,6 +84,8 @@ $conection = new Conexion();
                             $checkProducto = $_POST['producto'];
                             /*obtiene la cantidad de productos querida por un cliente*/
                             $cantidadQuer = $_POST['cantidadQuerida'];
+
+                            $indicado = $_POST['indicador'];
                             /*se inician las variables que contaran el total de productos y el total del valor */
                             $total = 0; $n = 0; $cantotal = 0;
                             /* recore el arreglo de los productos seleccionados por el cliente */

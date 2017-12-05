@@ -26,7 +26,7 @@ if ($conection->conectarMysql() == false){
 
 
     if ($resultado !=  null){
-        header("Location: ../Vista/index.php");
+        header("Location: ../Vista/Mensages/DatosIngresadosExitosamente.php");
     }else{
         header("Location: ../Vista/Errores/FalloIngresoDatos.php");
     }
